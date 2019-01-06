@@ -1,0 +1,20 @@
+------------------------
+|05-01-2019 //Publicada|
+------------------------
+-Añadidos los hashcodes de la última actualizacion de Swyter.
+-Arreglar pared escalable de Akaraia 2.
+-Hacer que los crystal poles de las dungeons de akaria queden fijos.
+-Arreglado un problema con el Ankh Electrico.
+
+------------
+|06-01-2019|
+------------
+-Añadido el texto de los discos de Atun.
+-Mejora de las animaciones de los Items beta.
+-Textura añadida al mapa del chief en una CS de sakkara.
+-Arreglado un problema de Z-Sort en el pantano de Sakkara 1.
+-Añadidas entradas y salidas en sakkara 2.
+-Arregladas las escaleras del templo de Sakkara 8.
+-Arregladas las palmeras de la entrada del templo en sakkara 8.
+-Mejoras de optimizacion en Abydos sud.
+-Mejoras de optimizacion en Abydos norte.

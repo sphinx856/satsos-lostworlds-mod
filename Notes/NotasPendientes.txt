@@ -1,0 +1,5 @@
+#define HT_Text_NoteTitle_AbyLever	0x43000f81
+#define HT_Text_Note_AbyLever	0x43000f82
+
+#define HT_Text_NoteTitle_Sak_warriorTrophy	0x43000f83
+#define HT_Text_Note_Sak_warriorTrophy	0x43000f84
