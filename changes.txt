@@ -1,16 +1,12 @@
-------------------------
-|05-01-2019 //Publicada|
-------------------------
+05-01-2019 //Publicada.
 -Añadidos los hashcodes de la última actualizacion de Swyter.
 -Arreglar pared escalable de Akaraia 2.
 -Hacer que los crystal poles de las dungeons de akaria queden fijos.
 -Arreglado un problema con el Ankh Electrico.
 
-------------
-|06-01-2019|
-------------
+07-01-2019 //Publicada.
 -Añadido el texto de los discos de Atun.
--Mejora de las animaciones de los Items beta.
+-Mejora de las animaciones de los Items beta. 
 -Textura añadida al mapa del chief en una CS de sakkara.
 -Arreglado un problema de Z-Sort en el pantano de Sakkara 1.
 -Añadidas entradas y salidas en sakkara 2.
@@ -18,3 +14,38 @@
 -Arregladas las palmeras de la entrada del templo en sakkara 8.
 -Mejoras de optimizacion en Abydos sud.
 -Mejoras de optimizacion en Abydos norte.
+-Mejoras de optimizacion en Sakkara.
+
+17-01-2019 //Publicada.
+-Arreglados algunos problemas de colisión en Sakkara 1
+-Corregido el hashcode del trigger load level en los mini juegos de Abydos.
+-Mejoras de optimización en Akaria 3.
+-Mejora de optimización en Abydos norte y sud. 
+-Corregidas las animaciones de las puertas en Abydos norte y sud.
+
+17-01-2019 //Publicada.
+-Corregidos algunos problemas de activación y desactivación de NPC's en Abydos.
+-Corregidos algunos problemas con los portales en Abydos norte.
+-Corregido un problema con las texturas en el nivel Mummy well.
+-Mejorada la textura de los monjes de Akaria.
+
+21-01-2019 //Publicada.
+-Mejoras gráficas para Sakkara.
+-Mejoras de optimización para la dungeon 3 de Akaria.
+-Intento de arreglar un problema en una cs de Anubis.
+-Pequeños cambios en Sakkara 2.
+
+22-01-2019 //Publicada.
+-Arreglado un problema con un bloque en Sakkara 5.
+-Arreglado un problema en Sakkara 8 que, al poner una cabeza de estatua, salir del nivel y volver a entrar no se abrían las cubiertas de las palancas.
+-Tal y como indica el jefe de los hittitas las ramas han sido movidas a la ciudad en ruinas.
+-Arreglado un bug en Sakkara 8 que provocaba que el bloque desapareciera al tirarlo en el pilar movible.
+-Ampliado el radio de algunos triggers en Sakkara 1.
+-Ampliado e radio de algunos triggers en Sakkara 7.
+-Mejora de la colisión con los triggers containers en Sakkara 7.
+-Corrección de problemas de Alpha en Sakkara 5.
+-Correcciones de colisiones en el palacio de la reina geb en Sakkara 5.
+
+
+23-01-2019
+-Correjido un problema con una cs de sakkara 5. Se repetia cada vez que entrabas al nivel.

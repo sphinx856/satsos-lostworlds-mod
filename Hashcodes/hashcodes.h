@@ -4930,8 +4930,10 @@
 #define HT_Script_CS_Sak_8_OpenChestAnkhPiece	0x04000d9b
 #define HT_Script_Sak_3_WaterLake		0x04000d9c
 #define HT_Script_Electric_Anhk		0x04000d9d
-#define HT_Script_HASHCODE_END		0x04000d9e
-/* 04000d9e */
+#define HT_Script_CS_Sakk_Portal_EndLevel		 0x04000d9e
+#define HT_Script_CS_Sakk_portal_startlevel		 0x04000d9f
+#define HT_Script_HASHCODE_END		0x04000da0
+/* 04000da1 */
 /* HT_AnimMode */
 #define HT_AnimMode_HASHCODE_BASE		0x09000000
 #define HT_AnimMode_Idle_1		 0x09000000
@@ -9722,8 +9724,12 @@
 #define HT_Objective_Hel_Exterior_Cave2_WaterJumpPadBlocker3		0x42000603
 #define HT_Objective_Sak_ElectricAnkh		 0x42000604
 #define HT_Objective_Sak_HelpAtunDisc		0x42000605
-#define HT_Objective_HASHCODE_END		 0x42000606
-/* 42000606 */
+#define HT_Objective_Sak_5_ExteriorTowerSwitch		0x42000606
+#define HT_Objective_Sak_8_PearlCounter01		0x42000607
+#define HT_Objective_Sak_8_PearlCounter02		0x42000608
+#define HT_Objective_Sak_8_RamTower		0x42000609
+#define HT_Objective_HASHCODE_END		 0x4200060a
+/* 4200060a */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001
