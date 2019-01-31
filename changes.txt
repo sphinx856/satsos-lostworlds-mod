@@ -1,20 +1,20 @@
 05-01-2019 //Publicada.
--Añadidos los hashcodes de la última actualizacion de Swyter.
--Arreglar pared escalable de Akaraia 2.
--Hacer que los crystal poles de las dungeons de akaria queden fijos.
+-Añadidos los hashcodes de la última actualización de Swyter.
+-Arreglar pared escalable de Akaria 2.
+-Hacer que los crystal poles de las dungeons de Akaria queden fijos.
 -Arreglado un problema con el Ankh Electrico.
 
 07-01-2019 //Publicada.
 -Añadido el texto de los discos de Atun.
--Mejora de las animaciones de los Items beta. 
--Textura añadida al mapa del chief en una CS de sakkara.
+-Mejora de las animaciones de los ítems beta. 
+-Textura añadida al mapa del chief en una CS de Sakkara.
 -Arreglado un problema de Z-Sort en el pantano de Sakkara 1.
--Añadidas entradas y salidas en sakkara 2.
+-Añadidas entradas y salidas en Sakkara 2.
 -Arregladas las escaleras del templo de Sakkara 8.
--Arregladas las palmeras de la entrada del templo en sakkara 8.
--Mejoras de optimizacion en Abydos sud.
--Mejoras de optimizacion en Abydos norte.
--Mejoras de optimizacion en Sakkara.
+-Arregladas las palmeras de la entrada del templo en Sakkara 8.
+-Mejoras de optimización en Abydos sud.
+-Mejoras de optimización en Abydos norte.
+-Mejoras de optimización en Sakkara.
 
 17-01-2019 //Publicada.
 -Arreglados algunos problemas de colisión en Sakkara 1
@@ -32,7 +32,7 @@
 21-01-2019 //Publicada.
 -Mejoras gráficas para Sakkara.
 -Mejoras de optimización para la dungeon 3 de Akaria.
--Intento de arreglar un problema en una cs de Anubis.
+-Intento de arreglar un problema en una CS de Anubis.
 -Pequeños cambios en Sakkara 2.
 
 22-01-2019 //Publicada.
@@ -44,8 +44,32 @@
 -Ampliado e radio de algunos triggers en Sakkara 7.
 -Mejora de la colisión con los triggers containers en Sakkara 7.
 -Corrección de problemas de Alpha en Sakkara 5.
--Correcciones de colisiones en el palacio de la reina geb en Sakkara 5.
+-Correcciones de colisiones en el palacio de la reina Geb en Sakkara 5.
+-Cambios en las CS del arqueólogo i el gran obelisco de Heliópolis. 
+
+23-01-2019 //Publicada.
+-Corrección de bugs en las islas Uruk.
+
+27-01-2019 //Publicada.
+-Añadido el antiguo HUD.
+-Corregido un problema con una CS de Sakkara 5. Se repetía cada vez que entrabas al nivel.
+-Corregido algunos problemas con los portales en Akaria Dungeon 1.
+-Mejoras en Sakkara 8.
+-Corrección de bugs en Sakkara 7.
+-Corregido un problema con la música en Sakkara 8 y Sakkara 7.
+-Limitado el uso del Ankh eléctrico solo en Sakkara.
+-Arreglados algunos problemas con la música en Akaria.
+
+29-01-2019
+-Arreglado un problema con la vasija del amuleto en Uruk Hub. 
+-Arrelgado un problema con una CS de sakkara 6.
+-Algunas mejoras en los textos.
+-Arreglado un problema con los toggle masters en Akaria 1.
+-Arrelgado un bug en el nivel de la momia "mummy well" que permitia salir del area de juego.
+-Si no has recogido las escamas de cocodrilo en akaria dome, el rey de akaria te las dará cuando ishka se escapa.
 
 
-23-01-2019
--Correjido un problema con una cs de sakkara 5. Se repetia cada vez que entrabas al nivel.
+
+
+
+
