@@ -60,13 +60,29 @@
 -Limitado el uso del Ankh eléctrico solo en Sakkara.
 -Arreglados algunos problemas con la música en Akaria.
 
-29-01-2019
+02-02-2019 //Publicada.
 -Arreglado un problema con la vasija del amuleto en Uruk Hub. 
--Arrelgado un problema con una CS de sakkara 6.
+-Arreglado un problema con una CS de Sakkara 6.
 -Algunas mejoras en los textos.
 -Arreglado un problema con los toggle masters en Akaria 1.
--Arrelgado un bug en el nivel de la momia "mummy well" que permitia salir del area de juego.
--Si no has recogido las escamas de cocodrilo en akaria dome, el rey de akaria te las dará cuando ishka se escapa.
+-Arreglado un bug en el nivel de la momia "mummy well" que permitía salir del área de juego.
+-Si no has recogido las escamas de cocodrilo en Akaria dome, el rey de Akaria te las dará cuando Ishka se escapa.
+-Arreglado un problema con un cofre en Sakkara 1.
+-Ahora el juego empieza en Abydos cuando el gobernador está enfermo.
+-Añadido un texto de ayuda en la cueva 1 de Heliópolis.
+
+
+03-02-2019 //Publicada.
+-Arreglados algunos bugs en Akaria 1.
+-Añadida una CS de la campana de buceo en Abydos Sud.
+-Arreglado el problema de que a veces las tortugas colisionaban entre ellos en Akaria 1.
+-Arreglado un problema con el Sirviente en Akaria 2.
+-Arreglados algunos fallos de colisiones en Akaria 3.
+-Arreglado un bug con el sapo escupidor en Sakkara 2.
+
+
+
+
 
 
 

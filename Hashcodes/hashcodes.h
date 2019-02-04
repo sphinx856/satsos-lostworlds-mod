@@ -9729,8 +9729,10 @@
 #define HT_Objective_Sak_8_PearlCounter02		0x42000608
 #define HT_Objective_Sak_8_RamTower		0x42000609
 #define HT_Objective_aka_1_CrocodileScales		0x4200060a
-#define HT_Objective_HASHCODE_END		 0x4200060b
-/* 4200060b */
+#define HT_Objective_hel_caves_Help_EyePost02		0x4200060b
+#define HT_Objective_Sak_ext_chest01		 0x4200060c
+#define HT_Objective_HASHCODE_END		 0x4200060d
+/* 4200060c */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001
@@ -13677,8 +13679,9 @@
 #define HT_Text_Gen_Help_Portal_AmuletDeniedSakkara01		 0x43000f86
 #define HT_Text_Gen_Help_AtunDisc_Sak		0x43000f87
 #define HT_Text_Aka_Palace_KingIshka_crocodile		0x43000f88
-#define HT_Text_HASHCODE_END		0x43000f89
-/* 43000f89 */
+#define HT_Text_Hel_Exterior_Help_EyePost02		0x43000f89
+#define HT_Text_HASHCODE_END		0x43000f90
+/* 43000f90 */
 /* HT_TextEffect */
 #define HT_TextEffect_BASE		 0x43100000
 #define HT_TextEffect_Teletype		 0x43100001
