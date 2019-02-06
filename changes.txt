@@ -71,7 +71,6 @@
 -Ahora el juego empieza en Abydos cuando el gobernador está enfermo.
 -Añadido un texto de ayuda en la cueva 1 de Heliópolis.
 
-
 03-02-2019 //Publicada.
 -Arreglados algunos bugs en Akaria 1.
 -Añadida una CS de la campana de buceo en Abydos Sud.
@@ -79,6 +78,14 @@
 -Arreglado un problema con el Sirviente en Akaria 2.
 -Arreglados algunos fallos de colisiones en Akaria 3.
 -Arreglado un bug con el sapo escupidor en Sakkara 2.
+
+06-02-2019 
+-Ahora los politicos no desaparecen una vez que ha pasado la escena de la coronacion. 
+-Correccion de bugs en el nivel mummy well. 
+-Mejoras en Abydos sur.
+-Mejoras en Akaria 2.
+
+
 
 
 
