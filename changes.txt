@@ -79,13 +79,24 @@
 -Arreglados algunos fallos de colisiones en Akaria 3.
 -Arreglado un bug con el sapo escupidor en Sakkara 2.
 
-06-02-2019 
--Ahora los politicos no desaparecen una vez que ha pasado la escena de la coronacion. 
--Correccion de bugs en el nivel mummy well. 
+07-02-2019 //Publicada.
+-Ahora los políticos no desaparecen una vez que ha pasado la escena de la coronación. 
+-Corrección de bugs en el nivel mummy well. 
 -Mejoras en Abydos sur.
 -Mejoras en Akaria 2.
+-Corrección de bugs con un portal en Abydos sud. 
+-Mejoras graficas en Akaria dungeon 5.
+
+09-02-2019 //Publicada.
+-Ahora las llaves de cristal se deshacen cuando tocas determinadas cascada en Akaria.
+-Añadido el consistorio en la isla de Abydos Sud. 
+-Arreglado un bug con una pared escalable en Akaria dungeon 1.
+-Arreglado un bug con una pared escalable en Akaria dungeon 2.
+-Aumentado el radio de suspension de las tortugas en Akaria dungeon 1.
+-Ahora las llaves de cristal de deshacen al tocar algunas cascadas en Akaria.
 
 
+/////////////////////////////73 bugs/mejoras/////////////////////////////////////////////////
 
 
 
