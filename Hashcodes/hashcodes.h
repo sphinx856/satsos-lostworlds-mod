@@ -9586,7 +9586,6 @@
 #define HT_Objective_Sak_1_BridgePathAcidChain 0x42000568
 #define HT_Objective_Aka_du1_door_key_ishka		 0x42000564
 #define HT_Objective_Aka_du1_door_ishka		 0x42000565
-#define HT_Objective_AguaMagicaSakkara2		 0x42000571
 #define HT_Objective_Sak1_StatueHeads1		 0x42000566
 #define HT_Objective_Sak1_StatueHeads2		 0x42000567
 #define HT_Objective_Sak1_StoneHengeDoor1		 0x42000568
@@ -9597,8 +9596,8 @@
 #define HT_Objective_Sakk_start_atun		 0x4200056d
 #define HT_Objective_Sak_2_StatueHead01		 0x4200056e
 #define HT_Objective_Sak_2_StatueHead02		 0x4200056f
-#define HT_Objective_Sak_2_pickSH1		 0x42000570
-#define HT_Objective_Sak2_pick_SH2		 0x4200058f
+#define HT_Objective_Sak_8_PearlCounter01		 0x42000570
+#define HT_Objective_Sak_8_RamTower		 0x42000571
 #define HT_Objective_Sak2_pickKey		 0x42000572
 #define HT_Objective_Sak_2_Door1		 0x42000573
 #define HT_Objective_Sak_2_Door2		 0x42000574
@@ -9627,7 +9626,8 @@
 #define HT_Objective_ak_du5_crystal1		 0x4200058b
 #define HT_Objective_ak_du5_crystal2		 0x4200058c
 #define HT_Objective_ak_du5_crystal3		 0x4200058d
-#define HT_Objective_sakk2_possesion_camera		 0x4200058e
+#define HT_Objective_Sak_HelpAtunDisc		 0x4200058e
+#define HT_Objective_Sak_5_ExteriorTowerSwitch		 0x4200058f
 #define HT_Objective_sak1_plantacomprada		 0x42000590
 #define HT_Objective_aka2_chest_fadein		 0x42000591
 #define HT_Objective_ak_du1_ishkdoor1		 0x42000592
@@ -9704,8 +9704,8 @@
 #define HT_Objective_Sak8_ChestFiredartsFadeIn	0x420005dc
 #define HT_Objective_Sak_Start_QuestSticks		0x420005dd
 #define HT_Objective_Sak_Start_QuestLizard		0x420005de
-#define HT_Objective_Sak_2_chest1		0x420005df
-#define HT_Objective_Sak_2_chest1fade		0x420005e0
+#define HT_Objective_hel_caves_Help_EyePost02		0x420005df
+#define HT_Objective_aka_1_CrocodileScales		0x420005e0
 #define HT_Objective_Sak_1_stone		0x420005e1
 #define HT_Objective_mum_jail_burnfence	0x420005e2
 #define HT_Objective_mum_jail_openchestset	0x420005e3
@@ -9721,7 +9721,7 @@
 #define HT_Objective_aka_du4_camera		0x420005ed
 #define HT_Objective_sak_06_glyphK		0x420005ee
 #define HT_Objective_sak_02_possesionKey		0x420005ef
-#define HT_Objective_sak_02_lights		0x420005f0
+#define HT_Objective_Sak_ext_chest01		0x420005f0
 #define HT_Objective_aka_du1_explosiveMine		0x420005f1
 #define HT_Objective_aka_du1_secretroomchest		0x420005f2
 #define HT_Objective_sak_06_elderTent		0x420005f3
@@ -9732,7 +9732,7 @@
 #define HT_Objective_Aby_South_bridge3	0x420005f8
 #define HT_Objective_Aby_South_bridge4	0x420005f9
 #define HT_Objective_Sak_start_Fx_atun		 0x420005fa
-#define HT_Objective_Sak_2_PuzzleLights		 0x420005fb
+#define HT_Objective_Sak_8_PearlCounter02		 0x420005fb
 #define HT_Objective_Sak_5_MotionDetector01		 0x420005fc
 #define HT_Objective_Sak_5_MotionDetector02		 0x420005fd
 #define HT_Objective_Sak_5_BreakBridge1		 0x420005fe
@@ -9742,16 +9742,8 @@
 #define HT_Objective_Hel_Exterior_Cave2_WaterJumpPadBlocker2		0x42000602
 #define HT_Objective_Hel_Exterior_Cave2_WaterJumpPadBlocker3		0x42000603
 #define HT_Objective_Sak_ElectricAnkh		 0x42000604
-#define HT_Objective_Sak_HelpAtunDisc		0x42000605
-#define HT_Objective_Sak_5_ExteriorTowerSwitch		0x42000606
-#define HT_Objective_Sak_8_PearlCounter01		0x42000607
-#define HT_Objective_Sak_8_PearlCounter02		0x42000608
-#define HT_Objective_Sak_8_RamTower		0x42000609
-#define HT_Objective_aka_1_CrocodileScales		0x4200060a
-#define HT_Objective_hel_caves_Help_EyePost02		0x4200060b
-#define HT_Objective_Sak_ext_chest01		 0x4200060c
-#define HT_Objective_HASHCODE_END		 0x4200060d
-/* 4200060c */
+#define HT_Objective_HASHCODE_END		 0x42000605
+/* 42000605 */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001

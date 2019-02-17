@@ -98,6 +98,10 @@
 
 /////////////////////////////73 bugs/mejoras/////////////////////////////////////////////////
 
+12-02-2019
+-Arreglados algunos problemas de colisión con los puentes en Akaria dungeon 2.
+-Arreglados algunos problemas de colisión con algunas plataformas en Abydos norte.
+
 
 
 
