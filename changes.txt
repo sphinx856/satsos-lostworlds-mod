@@ -95,12 +95,32 @@
 -Aumentado el radio de suspension de las tortugas en Akaria dungeon 1.
 -Ahora las llaves de cristal de deshacen al tocar algunas cascadas en Akaria.
 
-
-/////////////////////////////73 bugs/mejoras/////////////////////////////////////////////////
-
-12-02-2019
+12-02-2019 //Publicada.
 -Arreglados algunos problemas de colisión con los puentes en Akaria dungeon 2.
 -Arreglados algunos problemas de colisión con algunas plataformas en Abydos norte.
+
+20-02-2019
+-Añadidos limites en Abydos norte y Abydos sud. 
+-La campana de buceo está más abajo. Ahora es más fácil acceder. 
+-Añadido tiempo a todos los cristales resonadores de Akaria. 
+-Implementadas misiones de la guía oficial en Sakkara 2.
+-Mejoras en la escena de video de la coronación en Abydos. 
+-Ahora el guardia que es asesinado por Ishka, te avisa de que necesitarás las escamas de cocodrilo.
+-Arreglado un pequeño problema con el guardia de la CS del ataque de los Abydosians en Akaria 1 que desaparecía a veces después de la CS.
+-Arreglado un problema que hacía que la cuerda de la trampa de los Gebs en el poblado de los hititas desapareciera. 
+-Arreglado el problema con la colisión con las ramas del agujero de la trampa para los Gebs en el poblado de los hititas. 
+-Arreglado algún bug con los portales en Sakkara 7.
+-Arreglado el sapo escupidor de Sakkara 2, a veces cogía el Sphinx sin darle primero las bayas. 
+-Añadida una tienda en Sakkara 6.
+-Gracias a @SphinxLuvDuvWuv hemos podido recrear el modelo 3d el ítem "Huevos de sapo escupidor".
+-Añadidas las CS en Sakkara 3.
+-Se han añadido efectos de niebla en Sakkara 6.
+-Mejorada la entrada a Sakkara 6 des de Sakkara 2.
+-Arreglado un bug con la puerta de la entrada a Sakkara 6.
+-Se ha añadido el trigger "WalkInLoad" a todas las entradas y salidas de Sakkara.
+
+
+
 
 
 
