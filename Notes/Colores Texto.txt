@@ -1,5 +1,0 @@
-<FC 128,64,0>Naranja<END FC>
-<FC 0,128,0>green<END FC>
-<FC 128,0,0>red<END FC>
-<FC 0,0,128>blue<END FC>
-<FC 224,224,0>yellow<END FC>

@@ -1,9 +1,0 @@
-x:\EngineX\Utils\Batch\MkFileList.bat Sphinx PC
-x:\EngineX\Utils\Batch\MkFileList2.bat Sphinx PC
-
-
-%appdata%\Sphinx\Sphinx.ini
-x:\EngineX\Utils\Batch\MkFileList.bat Sphinx PS2 FINAL
-x:\EngineX\Utils\Batch\MkFileList2.bat Sphinx PS2 FINAL
-
-
