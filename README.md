@@ -10,8 +10,6 @@ A Sphinx and the Cursed Mummy beta restoration mod.
 
 For more information look at the [quick start guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1306820082)
 
-[comment]: <> (TODO: ## Running the tests)
-
 [comment]: <> (TODO: ## Deployment)
 
 ## Contributing
