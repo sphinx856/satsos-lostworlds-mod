@@ -128,4 +128,46 @@
 -Arreglados algunos problemas con las colisiones en Abydos North
 -Arreglados algunos bugs en Sakkara 8.
 
+15-03-2019 //Publicada
+-Arreglados algunos bugs en Sakkara 1.
+-Arreglada una pared escalable en Sakkara 5.
+
+24-03-2019 //Publicada
+-Arreglado un bug con la puerta del pasadizo a la campana de buceo en Akaria 1.
+
+25-03-2019 //Publicada
+-Añadidos algunos Objectives para las CS de Akaria 1.
+-Arreglado un bug con el pasaje de los campeones en Abydos.
+-Arreglados los minijuegos de Sakkara 7.
+-Mejoras en Sakkara 1.
+-Mejoras en los textos.
+-Arreglado un bug con los resonators de la dungeon 1 de Akaria.
+-Ahora en Akaria 2 las cajas aparecen después de hablar con el Rey.
+-Mejoras en los textos de las descripciones en los niveles Sakkara 6 y 7.
+
+30-03-2019 //Publicada
+-Mejoras en los textos de Sakkara 6.
+-Mejoras en Sakkara 7.
+-Primer intento para arreglar el bug extraño con las tortugas en Akaria Dungeon 1.
+
+06-04-2019
+-Mejoras en los textos.
+-Arreglados algunos bugs de Sakkara 1.
+-Añadidas más pistas para el jugador en Sakkara 1.
+-Ahora se puede guardar en Akaria 1.
+-Arreglado un problema con un PNJ en Akaria 2.
+-Mejoras de optimización en Abydos Norte y Sur.
+-Nuevas CS en Sakkara 2. 
+-Mejoras en las palancas de Abydos Sur.
+-Mejoras en Sakkara 3.
+-En el nivel de la mazmorra de heliopolis en la CS de los toros de fuego ahora puedes moverte.
+-Mejoras en las CS de Akaria 2.
+
+
+
+
+
+
+
+
 
