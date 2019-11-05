@@ -1,0 +1,2 @@
+Start the mod by double-clicking on launch-sphinx-mod.cmd, if the game is already installed it will start with the mod right away without changing anything in the filesystem, you can still play the base game normally. 
+If you want, you can also create a desktop shortcut for the tiny mod launcher.
