@@ -9797,8 +9797,12 @@
 #define HT_Objective_Urk_3bms_BurnFence01		 0x4200062c
 #define HT_Objective_Urk_3bms_GolemEye		 0x4200062d
 #define HT_Objective_Urk_2key_GolemEye		 0x4200062e
-#define HT_Objective_HASHCODE_END		 0x4200062f
-/* 4200062f */
+#define HT_Objective_Urk_2key_GlyphKeyFadeIn		 0x4200062f
+#define HT_Objective_Urk_2key_GoldKeyFadeIn		 0x42000630	 
+#define HT_Objective_Sak_Temple_SmashStatue01		 0x42000631
+#define HT_Objective_Hel_da1_OpenChest01		 0x42000632
+#define HT_Objective_HASHCODE_END		 0x42000633
+/* 42000633 */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001

@@ -150,7 +150,7 @@
 -Mejoras en Sakkara 7.
 -Primer intento para arreglar el bug extraño con las tortugas en Akaria Dungeon 1.
 
-06-04-2019
+13-04-2019 //Publicada
 -Mejoras en los textos.
 -Arreglados algunos bugs de Sakkara 1.
 -Añadidas más pistas para el jugador en Sakkara 1.
@@ -162,12 +162,39 @@
 -Mejoras en Sakkara 3.
 -En el nivel de la mazmorra de heliopolis en la CS de los toros de fuego ahora puedes moverte.
 -Mejoras en las CS de Akaria 2.
+-Mejoras en las animaciones de los pedestales de las perlas en la Dungeon 1 y Akaria 3.
+-Mejoras en las colisiones con los corales en el campo de minas en Akaria 3.
+-Mejoras en la Mazmorra 3 de Akaria.
+-Mejoras en las "RamTower" de Sakkara 1 y Sakkara 8.
+-Añadidas las animaciones en las entradas y salidas de Sakkara 2.
+-Arreglados algunos items del inventario que no se borraban cuando llegaban a cero.
+-Mejoras graficas en Sakkara 5.
+-Añadidos los tutoriales de como desactivar las fuentes de energía en las mazmorras de sakkara 5.
 
+23-07-2019  //Publicada
+-Mejorado el texto de los ojos de golem.
+-Mejoras en el nivel Uruk Hub.
+-Arreglados los cofres de las mazmorras de Akaria que no aparecían. 
+-Mejoras en las paredes escalables de Sakkara. 
+-Mejoras de colisiones en Sakkara 5.
+-Arreglos menores en los niveles de Abydos. 
+-Arreglado un problema que permitía conseguir los dardos ácidos antes de llegar a Sakkara. 
+-Mejoras en Sakkara 8.
+-Arreglado el bug de la plaza de Abydos Sud. 
+-Ahora al colocar la palanca rota en Abydos South hay una animación. 
+-Añadida la piscina exterior que había en las versiones antiguas del consistorio de Abydos. 
+-Añadida la foto de Sphinx en el pasillo de los alcaldes.
 
-
-
-
-
-
+26-07-2019
+-Arreglado el zoom de las camaras en la cutscene apertura de la puerta roja Akaria 1.
+-Arreglado un bug con el jefe de los hititas en el dialogo de la trampa para el geb. 
+-Se han cambiado todos los cristales de Akaria por los nuevos. 
+-Se han cambiado los shaders de Agua en Akaria por los que se usan en la versión final. 
+-Añadido el Dark Area 2 y 3 originales. 
+-Añadido el nivel "Mummy Interrogation Room".
+-Corrección de bugs en Akaria. 
+-Corrección de bugs en Sakkara.
+-En el nivel Mummy Jail, se ha cambiado el cielo por el de Uruk. 
+-Se ha añadido el ladrón que robaba la palanca de los puentes de Abydos. 
 
 
