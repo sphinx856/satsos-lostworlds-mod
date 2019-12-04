@@ -9801,8 +9801,9 @@
 #define HT_Objective_Urk_2key_GoldKeyFadeIn		 0x42000630	 
 #define HT_Objective_Sak_Temple_SmashStatue01		 0x42000631
 #define HT_Objective_Hel_da1_OpenChest01		 0x42000632
-#define HT_Objective_HASHCODE_END		 0x42000633
-/* 42000633 */
+#define HT_Objective_Hel_DarkArea2_ZombiesPresentation		0x42000633
+#define HT_Objective_HASHCODE_END		 0x42000634
+/* 42000634 */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001
