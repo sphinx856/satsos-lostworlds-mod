@@ -6939,8 +6939,9 @@
 #define HT_SpreadSheet_MemcardText		 0x14000014
 #define HT_SpreadSheet_CharacterSounds		 0x14000015
 #define HT_SpreadSheet_LoadScreensXB		 0x14000016
-#define HT_SpreadSheet_HASHCODE_END		 0x14000017
-/* 14000017 */
+#define HT_SpreadSheet_ShadowOfSetMod		 0x14000017
+#define HT_SpreadSheet_HASHCODE_END		 0x14000018
+/* 14000018 */
 /* HT_Reference */
 #define HT_Reference_HASHCODE_BASE		 0x15000000
 #define HT_Reference_Button1		 0x15000001
