@@ -4945,8 +4945,11 @@
 #define HT_Script_CS_Sakk_5_BioBlobTutorial_Tower1		0x04000da8
 #define HT_Script_CS_Sakk_5_BioBlobTutorial_Tower2		0x04000da9
 #define HT_Script_IO_ab_sth_CS_diving_bell		0x04000daa
-#define HT_Script_HASHCODE_END		0x04000dab
-/* 04000dab */
+#define HT_Script_SaltCrystalRed		0x04000dab
+#define HT_Script_SaltCrystalGreen		0x04000dac
+#define HT_Script_SaltCrystalMultiColor		0x04000dad
+#define HT_Script_HASHCODE_END		0x04000dae
+/* 04000dae */
 /* HT_AnimMode */
 #define HT_AnimMode_HASHCODE_BASE		0x09000000
 #define HT_AnimMode_Idle_1		 0x09000000
@@ -9803,8 +9806,9 @@
 #define HT_Objective_Sak_Temple_SmashStatue01		 0x42000631
 #define HT_Objective_Hel_da1_OpenChest01		 0x42000632
 #define HT_Objective_Hel_DarkArea2_ZombiesPresentation		0x42000633
-#define HT_Objective_HASHCODE_END		 0x42000634
-/* 42000634 */
+#define HT_Objective_Aby_North_SlamStatue		0x42000634
+#define HT_Objective_HASHCODE_END		 0x42000635
+/* 42000635 */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001
