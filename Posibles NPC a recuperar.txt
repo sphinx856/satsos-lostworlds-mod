@@ -1,0 +1,43 @@
+In Hashcodes:
+Humanoid Dressed:
+HD07_Hunter
+HD34_Aby_Fat_Cake
+HD37_V02_Aby_Upper_Class
+
+Flying
+FL01_2headed_chickenbat or FL01_headed_chickenbat
+
+Insects
+IN08_Tacked_Spider
+
+Animal Biped -> Mammal
+BM04_alien_verminhorn
+
+Animal Biped -> Reptile
+BR03_Lizard_Mount
+
+Animal Quadruped -> Undead
+QU03_Skeletal_Worm
+QU07_Dead_Arm
+
+
+Not in Hashcode:
+Humans:
+HU01_old_Man
+HU14_pharaoh
+
+Humanoid Dressed:
+HD04_Fox_Anubis
+HD08_suave_Dog
+HD11_pretty_reptileman
+
+Animal Biped -> Mammal
+BM08_grinning_burble
+BM11_half_camel
+
+Animal Biped -> Reptile
+BR01_big_lizard
+BR02_BR02_small_lizard
+
+Plants
+PL03_tweezers_tree

@@ -4,6 +4,7 @@ REM *===========================================================================
 SET TriggerObjects=C:\Users\Jordi Martinez\Desktop\Sphinx and the shadow of set\TriggerObjects
 SET Maps=C:\Users\Jordi Martinez\Desktop\Sphinx and the shadow of set\Maps
 SET CutScenes=C:\Users\Jordi Martinez\Desktop\Sphinx and the shadow of set\CutScenes
+SET NPCs=C:\Users\Jordi Martinez\Desktop\Sphinx and the shadow of set\Maps\NPCs
 
 REM *===============================================================================================
 REM *	Change Route
@@ -164,6 +165,26 @@ EuroLandRedux.exe /o ALL "%CutScenes%\Sakkara\CS_Sakk_8.elf"
 REM Uruk
 EuroLandRedux.exe /o ALL "%CutScenes%\Uruk\CS_Urk_2key.elf"
 EuroLandRedux.exe /o ALL "%CutScenes%\Uruk\CS_Urk_3bms.elf"
+
+REM *===============================================================================================
+REM *	NPCs
+REM *===============================================================================================
+EuroLandRedux.exe /o ALL "%NPCs%\BR04_Goofy lizard.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\hd01_crocotail.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\HD06_Wolf_Big-headed.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\hd13_s02_aby_bourgeoisie_racist.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\hd16_birdman.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\hd28_v01_aby_posh_couple_man.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\hd29_v01_aby_posh_couple_woman.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\hd31_v01_aby_woman_gossiping.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\HD34_Aby_Fat_Asking_for_a_Cake.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\hd42_aka_worshipper.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\HD69_Hel_Chieftain_Nomad.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\HD71_Hel_Chanting_Nomad_2.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\HD73_Hel_Nomad_Healer(Dark).elf"
+EuroLandRedux.exe /o ALL "%NPCs%\pi05_aka_turtle.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\QR02_Sak_Spitting_Toad.elf"
+EuroLandRedux.exe /o ALL "%NPCs%\QU11_Sarcophguy_Knight.elf"
 
 REM *===============================================================================================
 REM *	File List

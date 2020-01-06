@@ -198,3 +198,8 @@
 -Se ha añadido el ladrón que robaba la palanca de los puentes de Abydos. 
 
 
+15/12/2019
+-Recolocación de los NPC en Abydos Norte y sud. 
+-Optimización de triggers Abydos Norte. 
+-Añadido un fondo en el nivel de Akaria 1 en la parte del tovogán.
+-Arreglado un problema con los triggers de las targetas de los hititas en el minijuego de Sakkara 7. Al dispararles con la cerbatana no restaban puntos.
