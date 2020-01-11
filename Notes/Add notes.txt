@@ -1,7 +1,0 @@
-// remove note
-hash = HT_Text_Note_AkaKingMessage01
-bookremovenote HT_Text_NoteTitle_AkaKingMessage hash
-
-// add note
-hash = HT_Text_Note_AkaKingMessage01
-bookaddnote HT_Text_NoteTitle_AkaKingMessage hash	

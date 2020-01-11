@@ -2,3 +2,4 @@ How to:
  ->Make collisions with paths.
  ->Align items to the floor.
  ->Create a hashcode.
+ ->Copy and paste keyframes between events.

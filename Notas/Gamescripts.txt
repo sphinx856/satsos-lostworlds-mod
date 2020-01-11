@@ -1,0 +1,99 @@
+MOVEITEM: 
+HT_GameScript_Control_Rotate
+HT_GameScript_Control_FwdBack
+HT_GameScript_Control_Strafe
+HT_GameScript_Control_SetAngle
+HT_GameScript_Control_MoveX
+HT_GameScript_Control_MoveY
+HT_GameScript_Control_MoveZ
+HT_GameScript_Control_SetX
+HT_GameScript_Control_SetY
+HT_GameScript_Control_SetZ
+HT_GameScript_Control_SpawnPoint
+
+
+SETITEMFLAG:
+HT_GameScript_Item_Invincible
+HT_GameScript_Item_ImYoDaddy
+HT_GameScript_Item_ImYoTallDaddy
+HT_GameScript_Item_PathPingPong
+HT_GameScript_Control_Gravity
+HT_GameScript_Control_LockFirstPerson
+HT_GameScript_Control_BatControlLock
+HT_GameScript_Control_HUDDisable
+HT_GameScript_Item_FreezeAir
+HT_GameScript_Item_NoSwap
+HT_GameScript_Item_CamTrackPush
+HT_Trig_Message_DisableDistance
+HT_GameScript_Control_UseSpecialDarts
+HT_GameScript_Control_AlignPlayer
+HT_GameScript_Control_FreezeMonsters
+HT_Trig_Message_PickupableExplode
+HT_Trig_DistanceActionFlag_DropPickupable/HT_Trig_DistanceActionFlag_RespawnPickupable (same thing)
+HT_GameScript_Item_NPCHeadTrack
+HT_GameScript_Control_AllowSFX
+
+
+GETITEMFLAG:
+HT_GameScript_Item_Invincible
+HT_GameScript_Control_Gravity
+HT_GameScript_Item_IsLoadingSubmap
+HT_Trig_SavePointFlag_SaveGameActive
+HT_GameScript_Item_PlayerHasPickupable
+HT_GameScript_Control_IsHUDNormal
+
+
+SETITEMVALUE: 
+Works on monster triggers
+HT_GameScript_Item_Health 
+HT_GameScript_Item_FOV
+HT_GameScript_Item_NPCHeadtrackH 
+HT_GameScript_Item_NPCHeadtrackV
+HT_GameScript_Item_FightMode (value adds fight mode attackers to the counter, this is usually called by enemies to enable the fighty camra and music)
+
+Works when Sphinx is active
+HT_Local_RedGryphon
+HT_Local_GreenGryphon
+HT_Local_AtunDisc, negative value kills all existing effects and the hashcode doesn't matter 
+
+Works when the Mummy is active 
+HT_Local_TutCostumeDefault
+HT_Local_TutCostume1
+HT_Local_TutCostume2
+HT_Local_None (same as negative value on Sphinx, kills all the mummy effects and abilities)
+HT_Local_FireMummy
+HT_Local_SmokeMummy
+HT_Local_ElectricMummy
+HT_Local_PaperMummy
+HT_Local_BatMummy (value of all of these is the ability timer, use 999 for infinite time)
+HT_Local_All (same as HT_Local_None but it shows the particle effects and sounds)
+HT_Local_TripleMummyOn (if value is 1 then it uses the triggers linked in references for each mummy position)
+HT_Local_TripleMummyOff
+HT_Local_TripleMummyKillCurrent
+
+deactivated
+HT_Local_SmallMummy
+HT_Local_InvisibleMummy
+HT_Local_BlindMummy
+HT_Local_StoneMummy
+HT_Local_Tutankhamen
+
+
+GETITEMVALUE:
+HT_GameScript_Item_FightMode (number of active attackers, if not zero then the fighty music and alert animation is on)
+HT_Local_FireMummy
+HT_Local_SmokeMummy
+HT_Local_ElectricMummy
+HT_Local_BatMummy
+HT_Local_PaperMummy
+HT_Local_RedGryphon
+HT_Local_GreenGryphon
+HT_Local_AtunDisc
+HT_GameScript_Item_LinkOfFlyingRock (loops for the 8 linked referenced triggers, if they are of type pickupable and have hard-landed it adds to the count, returns the total number of smashed (?) pickupables, not necessarily rocks)
+
+Works when the Mummy is active
+HT_Local_All (returns a hashcode out of HT_Local_FireMummy/HT_Local_SmokeMummy/HT_Local_ElectricMummy/HT_Local_SmallMummy/HT_Local_PaperMummy/HT_Local_StoneMummy/HT_Local_InvisibleMummy/HT_Local_BlindMummy with the current mummy state/ability)
+HT_Local_TripleMummyOn
+
+Works on monster triggers
+HT_GameScript_Item_Health

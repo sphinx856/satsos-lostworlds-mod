@@ -1,6 +1,0 @@
-
-
-change HT_Text_Sak_GotFireDarts ->HT_Text_Gen_Help_GotFireDarts
-change HT_Text_All_GotSakBerry ->HT_Text_Gen_Help_GotSakBerry
-change HT_Text_Aka_OxygenAnkhCollected -> HT_Text_Gen_Help_GotOxygenAnkh
-change HT_Text_Aka_SaltCrystalLost ->HT_Text_Gen_Help_SaltCrystalLost

@@ -1,0 +1,6 @@
+[PCTriggerDebugWnd]
+Visible=1
+H=1499
+W=865
+Y=51
+X=2240

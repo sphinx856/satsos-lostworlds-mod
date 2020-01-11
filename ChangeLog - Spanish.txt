@@ -201,5 +201,13 @@
 15/12/2019
 -Recolocación de los NPC en Abydos Norte y sud. 
 -Optimización de triggers Abydos Norte. 
--Añadido un fondo en el nivel de Akaria 1 en la parte del tovogán.
+-Añadido un fondo en el nivel de Akaria 1 en la parte del tobogán.
 -Arreglado un problema con los triggers de las targetas de los hititas en el minijuego de Sakkara 7. Al dispararles con la cerbatana no restaban puntos.
+-Optimización en Abydos sud. 
+-Mejoras en las escenas de video de Akaria y Sakkara. 
+-Cambiadas las texturas del suelo en los niveles de Sakkara. 
+-Mejoras en las partículas de las minas explosivas de Akaria. 
+-Corregidos algunos textos de Akaria y Sakkara.
+-Mejoras en el nivel "Mummy Interrogation Room".
+-Mejoras en el nivel Akaria Dome. 
+-Correcciones de bugs en Sakkara, Akaria, Heliopolis y Abydos. 
