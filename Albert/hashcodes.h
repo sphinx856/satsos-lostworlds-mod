@@ -9831,8 +9831,9 @@
 #define HT_Objective_Mum_ldge_Castle_presentation		0x42000647
 #define HT_Objective_Hel_DarkArea3_MummyMinotaur		 0x42000648
 #define HT_Objective_Aby_South_UpperClassTalked		 0x42000649
-#define HT_Objective_HASHCODE_END		0x42000650
-/* 42000650 */
+#define HT_Objective_Hel_DarkArea3_Hint_Thorns		 0x42000650
+#define HT_Objective_HASHCODE_END		0x42000651
+/* 42000651 */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001
@@ -13806,7 +13807,8 @@
 #define HT_Text_NoteTitle_Join_Hittites		 0x43000fa2
 #define HT_Text_Note_Join_Hittites		 0x43000fa3
 #define HT_Text_Aka_Palace_GuardThanks		0x43000fa4
-#define HT_Text_HASHCODE_END		0x43000fa5
+#define HT_Text_Hel_DarkArea3_Hint_Thorns	0x43000fa5
+#define HT_Text_HASHCODE_END		0x43000fa6
 /* 43000fa6 */
 /* HT_TextEffect */
 #define HT_TextEffect_BASE		 0x43100000
