@@ -9831,9 +9831,14 @@
 #define HT_Objective_Mum_ldge_Castle_presentation		0x42000647
 #define HT_Objective_Hel_DarkArea3_MummyMinotaur		 0x42000648
 #define HT_Objective_Aby_South_UpperClassTalked		 0x42000649
-#define HT_Objective_Hel_DarkArea3_Hint_Thorns		 0x42000650
-#define HT_Objective_HASHCODE_END		0x42000651
-/* 42000651 */
+#define HT_Objective_Hel_DarkArea3_Hint_Thorns		 0x4200064a
+#define HT_Objective_Hel_DarkArea3_BurnBox01		 0x4200064b
+#define HT_Objective_Hel_DarkArea3_BurnBox02		 0x4200064c
+#define HT_Objective_Hel_DarkArea2_BurnBox01		 0x4200064d
+#define HT_Objective_Hel_DarkArea2_BurnBox02		 0x4200064e
+#define HT_Objective_Hel_DarkArea2_BurnBox03		 0x4200064f
+#define HT_Objective_HASHCODE_END		0x42000650
+/* 42000650 */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001
