@@ -9837,8 +9837,10 @@
 #define HT_Objective_Hel_DarkArea2_BurnBox01		 0x4200064d
 #define HT_Objective_Hel_DarkArea2_BurnBox02		 0x4200064e
 #define HT_Objective_Hel_DarkArea2_BurnBox03		 0x4200064f
-#define HT_Objective_HASHCODE_END		0x42000650
-/* 42000650 */
+#define HT_Objective_Sak_Valley_BurnBox01		 0x42000650
+#define HT_Objective_Sak_Valley_BurnBox02		 0x42000651
+#define HT_Objective_HASHCODE_END		0x42000652
+/* 42000652 */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001
