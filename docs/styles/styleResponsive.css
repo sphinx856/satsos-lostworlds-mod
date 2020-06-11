@@ -1,0 +1,36 @@
+@media (max-width: 800px) {
+	#SphinxLogo {
+		height: 75%;
+	}
+	
+	.images {
+		width: 100%;
+		height: auto;
+	}
+	
+	#ScreenshotsPanelGallery {
+		padding-top: 3%;
+	}
+	
+	.Videos {
+		width: 100%;
+	}
+	
+	.column {
+		width: 50%;
+	}
+}
+
+@media (max-width: 600px) {
+	#SphinxLogo {
+		width: 70%;
+	}
+	
+	.column {
+		height: 100%;
+	}
+	
+	.Videos {
+		height: 100%;
+	}
+}
