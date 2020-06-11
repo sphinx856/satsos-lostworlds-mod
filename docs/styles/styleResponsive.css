@@ -41,4 +41,8 @@
 	.StyleContainers {
 		width: 95%;
 	}
+	
+	#ScreenshotsPanelGallery {
+		padding-top: 5%;
+	}
 }

@@ -1,5 +1,6 @@
 body {
 	background-color: #2c2021;
+	background: linear-gradient(to bottom, #2c2021 0%, #423032 100%);
 	margin: 0;
 }
 
@@ -58,7 +59,7 @@ p {
 .StyleContainers {
 	width: 70%;
 	margin: auto;
-	background-color: #3E2C2D;
+	background-color: #3b2326;
 	border: 1px solid #564d4d;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 17px;
