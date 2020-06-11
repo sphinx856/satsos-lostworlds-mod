@@ -1,6 +1,6 @@
 @media (max-width: 800px) {
 	#SphinxLogo {
-		height: 75%;
+		height: 77%;
 	}
 	
 	.images {
@@ -19,6 +19,10 @@
 	.column {
 		width: 50%;
 	}
+	
+	.StyleContainers {
+		width: 85%;
+	}
 }
 
 @media (max-width: 600px) {
@@ -32,5 +36,9 @@
 	
 	.Videos {
 		height: 100%;
+	}
+	
+	.StyleContainers {
+		width: 95%;
 	}
 }
