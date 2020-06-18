@@ -4958,8 +4958,10 @@
 #define HT_Script_CS_Sak_Temple_PresentationFireballs		0x04000db4
 #define HT_Script_IO_sk_07_DoorBlockerBlowpipe		0x04000db5
 #define HT_Script_MagicWater		0x04000db6
-#define HT_Script_HASHCODE_END		0x04000db7
-/* 04000db7 */
+#define HT_Script_SluiceWheel		0x04000db7
+#define HT_Script_CS_Sak_TempleEntrance_Gatekeeper_CollectSquirts		0x04000db8
+#define HT_Script_HASHCODE_END		0x04000db9
+/* 04000db9 */
 /* HT_AnimMode */
 #define HT_AnimMode_HASHCODE_BASE		0x09000000
 #define HT_AnimMode_Idle_1		 0x09000000
@@ -13837,8 +13839,10 @@
 #define HT_Text_Sakk_4_SoldierB_Talk2		 0x43000fac
 #define HT_Text_Sakk_4_Chief_VisitHut		 0x43000fad
 #define HT_Text_Aby_Sth_RiddlemanThanks		 0x43000fae
-#define HT_Text_HASHCODE_END		0x43000faf
-/* 43000faf */
+#define HT_Text_Sakk_8_Herder_CaughtAllSquirts2		 0x43000faf
+#define HT_Text_Gen_Help_GotSluiceWheel		0x43000fb0
+#define HT_Text_HASHCODE_END		0x43000fb1		 
+/* 43000fb1 */
 /* HT_TextEffect */
 #define HT_TextEffect_BASE		 0x43100000
 #define HT_TextEffect_Teletype		 0x43100001
