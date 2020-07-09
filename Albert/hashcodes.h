@@ -759,7 +759,8 @@
 #define HT_File_CS_Sakk_8		 0x01000313
 #define HT_File_CS_Urk_3bms		 0x01000314
 #define HT_File_CS_Aby_South		 0x01000315
-#define HT_File_HASHCODE_END		0x01000316
+#define HT_File_CS_Urk_Hub		 0x01000316
+#define HT_File_HASHCODE_END		0x01000317
 /* 01000317 */
 /* HT_Entity */
 #define HT_Entity_HASHCODE_BASE	   	0x02000000
@@ -9853,8 +9854,9 @@
 #define HT_Objective_Hel_DarkArea2_ZombiesSecondRound		0x42000657
 #define HT_Objective_Hel_DarkArea2_ZombiesThirdRound		0x42000658
 #define HT_Objective_Hel_DarkArea2_ChiefTalked		0x42000659
-#define HT_Objective_Aby_South_RiddlemanThanks		0x4200065a	
-#define HT_Objective_HASHCODE_END		0x4200065b
+#define HT_Objective_Aby_South_RiddlemanThanks		0x4200065a
+#define HT_Objective_Sak_7_AnkhPieceChest		0x4200065b
+#define HT_Objective_HASHCODE_END		0x4200065c
 /* 4200065b */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
