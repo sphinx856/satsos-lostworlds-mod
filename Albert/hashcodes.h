@@ -4961,7 +4961,8 @@
 #define HT_Script_MagicWater		0x04000db6
 #define HT_Script_SluiceWheel		0x04000db7
 #define HT_Script_CS_Sak_TempleEntrance_Gatekeeper_CollectSquirts		0x04000db8
-#define HT_Script_HASHCODE_END		0x04000db9
+#define HT_Script_CS_Sakk_4_ShootGebTarget		0x04000db9
+#define HT_Script_HASHCODE_END		0x04000dc0
 /* 04000db9 */
 /* HT_AnimMode */
 #define HT_AnimMode_HASHCODE_BASE		0x09000000
@@ -9651,7 +9652,7 @@
 #define HT_Objective_Sak_5_CompletedPrisioner2		 0x42000589
 #define HT_Objective_Sak_1_IntrepidAcidDartsTalked		 0x4200058a
 #define HT_Objective_Sak_5_npc1		 0x4200058b
-#define HT_Objective_Sak_5_npc2		 0x4200058c
+#define HT_Objective_Sak_8_LeverCowel		 0x4200058c
 #define HT_Objective_Sak_8_ChestFiredarts		 0x4200058d
 #define HT_Objective_Sak_8_OpenDoorFireDarts		 0x4200058e
 #define HT_Objective_Sak_Start_Pillar_Statue_Head		 0x4200058f
@@ -9696,7 +9697,7 @@
 #define HT_Objective_Aka_3_Door1_Entrance_Temple		 0x420005b6
 #define HT_Objective_Aka_3_Door2_Entrance_Temple		 0x420005b7
 #define HT_Objective_Aka_2_Chest_MummyChapter_Counter		 0x420005b8
-#define HT_Objective_Aby_nrth_camera_statue		 0x420005b9
+#define HT_Objective_Aka_1_CrystalDoor4_Counter		 0x420005b9
 #define HT_Objective_Sak_8_WaterPillar_Camera		 0x420005ba
 #define HT_Objective_Aby_Nrth_GlyphKey01_Statue		 0x420005bb
 #define HT_Objective_Aby_Nrth_KeyCounterHerb		 0x420005bc
