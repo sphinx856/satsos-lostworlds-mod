@@ -762,6 +762,64 @@
 #define HT_File_CS_Urk_Hub		 0x01000316
 #define HT_File_HASHCODE_END		0x01000317
 /* 01000317 */
+
+/* swy: reserved hashcodes for additional language files; the game enables one of these languages if it detects
+        that both its FrontEnd and PickUps exist in the Filelist. they aren't shipped with the game, though. */
+#define HT_File_F00_FrontEnd_Portuguese	 0x01ffffff
+#define HT_File_O01_PickUps_Portuguese	 0x01fffffe
+#define HT_File_F00_FrontEnd_Japanese	 0x01fffffd
+#define HT_File_O01_PickUps_Japanese	 0x01fffffc
+#define HT_File_F00_FrontEnd_Greek		 0x01fffffb
+#define HT_File_O01_PickUps_Greek		 0x01fffffa
+#define HT_File_F00_FrontEnd_Dutch		 0x01fffff9
+#define HT_File_O01_PickUps_Dutch		 0x01fffff8
+#define HT_File_F00_FrontEnd_Danish		 0x01fffff7
+#define HT_File_O01_PickUps_Danish		 0x01fffff6
+#define HT_File_F00_FrontEnd_Norwegian	 0x01fffff5
+#define HT_File_O01_PickUps_Norwegian	 0x01fffff4
+#define HT_File_F00_FrontEnd_Swedish	 0x01fffff3
+#define HT_File_O01_PickUps_Swedish		 0x01fffff2
+#define HT_File_F00_FrontEnd_Finnish	 0x01fffff1
+#define HT_File_O01_PickUps_Finnish		 0x01fffff0
+#define HT_File_F00_FrontEnd_Russian	 0x01ffffef
+#define HT_File_O01_PickUps_Russian		 0x01ffffee
+#define HT_File_F00_FrontEnd_TradChinese 0x01ffffed
+#define HT_File_O01_PickUps_TradChinese	 0x01ffffec
+#define HT_File_F00_FrontEnd_SimpChinese 0x01ffffeb
+#define HT_File_O01_PickUps_SimpChinese	 0x01ffffea
+#define HT_File_F00_FrontEnd_Czech		 0x01ffffe9
+#define HT_File_O01_PickUps_Czech		 0x01ffffe8
+#define HT_File_F00_FrontEnd_Polish		 0x01ffffe7
+#define HT_File_O01_PickUps_Polish		 0x01ffffe6
+#define HT_File_F00_FrontEnd_FrenchCan	 0x01ffffe5
+#define HT_File_O01_PickUps_FrenchCan  	 0x01ffffe4
+#define HT_File_F00_FrontEnd_SpanishLa   0x01ffffe3
+#define HT_File_O01_PickUps_SpanishLa  	 0x01ffffe2
+#define HT_File_F00_FrontEnd_Hungarian 	 0x01ffffe1
+#define HT_File_O01_PickUps_Hungarian  	 0x01ffffe0
+#define HT_File_F00_FrontEnd_Brazilian	 0x01ffffdf
+#define HT_File_O01_PickUps_Brazilian	 0x01ffffde
+#define HT_File_F00_FrontEnd_Turkish	 0x01ffffdd
+#define HT_File_O01_PickUps_Turkish		 0x01ffffdc
+#define HT_File_F00_FrontEnd_Arabic		 0x01ffffdb
+#define HT_File_O01_PickUps_Arabic		 0x01ffffda
+#define HT_File_F00_FrontEnd_Romanian	 0x01ffffd9
+#define HT_File_O01_PickUps_Romanian	 0x01ffffd8
+#define HT_File_F00_FrontEnd_Thai		 0x01ffffd7
+#define HT_File_O01_PickUps_Thai		 0x01ffffd6
+#define HT_File_F00_FrontEnd_Vietnamese	 0x01ffffd5
+#define HT_File_O01_PickUps_Vietnamese	 0x01ffffd4
+#define HT_File_F00_FrontEnd_Indonesian	 0x01ffffd3
+#define HT_File_O01_PickUps_Indonesian	 0x01ffffd2
+#define HT_File_F00_FrontEnd_Latvian	 0x01ffffd1
+#define HT_File_O01_PickUps_Latvian		 0x01ffffd0
+#define HT_File_F00_FrontEnd_Bulgarian	 0x01ffffcf
+#define HT_File_O01_PickUps_Bulgarian	 0x01ffffce
+#define HT_File_F00_FrontEnd_Ukrainian	 0x01ffffcd
+#define HT_File_O01_PickUps_Ukrainian	 0x01ffffcc
+/* swy: NOTE: as you can see these hardcoded hashcodes are issued
+              backwards, for mod compatibility reasons */
+
 /* HT_Entity */
 #define HT_Entity_HASHCODE_BASE	   	0x02000000
 #define HT_Entity_Test		0x02000001
