@@ -50,6 +50,11 @@ div.Scrollmenu a:hover {
 	text-decoration: underline;
 }
 
+div.Scrollmenu a:active:before {
+	color: #C66E27;
+	text-decoration: underline;
+}
+
 h1 {
 	font-family: 'CaligulaDodgyMummy';
 	font-size: 23px;

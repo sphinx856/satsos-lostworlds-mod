@@ -755,7 +755,7 @@
 #define HT_File_Map_hl_cv2		 0x0100030f
 #define HT_File_IO_ak_02		 0x01000310
 #define HT_File_IO_sk_06		 0x01000311
-#define HT_File_IO_sk_env		 0x01000312
+#define HT_File_IO_sk_ext_general		 0x01000312
 #define HT_File_CS_Sakk_8		 0x01000313
 #define HT_File_CS_Urk_3bms		 0x01000314
 #define HT_File_CS_Aby_South		 0x01000315
@@ -9915,7 +9915,8 @@
 #define HT_Objective_Hel_DarkArea2_ChiefTalked		0x42000659
 #define HT_Objective_Aby_South_RiddlemanThanks		0x4200065a
 #define HT_Objective_Sak_7_AnkhPieceChest		0x4200065b
-#define HT_Objective_HASHCODE_END		0x4200065c
+#define HT_Objective_ShadowOfSetMod_Version		0x4200065c
+#define HT_Objective_HASHCODE_END		0x4200065d
 /* 4200065b */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
@@ -13902,8 +13903,12 @@
 #define HT_Text_Aby_Sth_RiddlemanThanks		 0x43000fae
 #define HT_Text_Sakk_8_Herder_CaughtAllSquirts2		 0x43000faf
 #define HT_Text_Gen_Help_GotSluiceWheel		0x43000fb0
-#define HT_Text_HASHCODE_END		0x43000fb1		 
-/* 43000fb1 */
+#define HT_Text_NoteTitle_DefeatZombies		 0x43000fb2
+#define HT_Text_Note_DefeatZombies		 0x43000fb3
+#define HT_Text_NoteTitle_FindSaltCrystals		 0x43000fb4
+#define HT_Text_Note_FindSaltCrystals		0x43000fb5
+#define HT_Text_HASHCODE_END		0x43000fb6
+/* 43000fb6 */
 /* HT_TextEffect */
 #define HT_TextEffect_BASE		 0x43100000
 #define HT_TextEffect_Teletype		 0x43100001
