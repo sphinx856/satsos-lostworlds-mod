@@ -1,7 +1,0 @@
-// remove note
-hash = HT_Text_Note_Join_Hittites
-bookremovenote HT_Text_NoteTitle_Join_Hittites hash	
-
-// add note
-hash = HT_Text_Note_Join_Hittites
-bookaddnote HT_Text_NoteTitle_Join_Hittites hash	

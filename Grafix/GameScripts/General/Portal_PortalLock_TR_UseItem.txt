@@ -1,0 +1,218 @@
+defproc WaitSay
+	int Said = 0
+	while Said = 0
+		Said = issaid
+	endwhile
+endproc
+
+
+defproc onmessage
+
+	int map
+	int obj_horus
+	int obj_anubis
+
+	map = getmaphash
+	obj_horus = getobjective HT_Objective_Hel_Exterior_CSHorusInvisibility
+	obj_anubis = getobjective HT_Objective_Hel_DarkArea1_AnubisTalked
+
+	// check what wrong item was used
+	if MESSAGE = HT_Trig_Message_WrongItem
+
+		switch ARG0
+			case HT_Item_Quest_PortalAmulet_Luxor01
+				if map = HT_File_Map_lu_pyra
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDeniedLuxor01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				elseif map = HT_File_Map_hl_ws1 and obj_horus = 0 and obj_anubis = 3
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDenied01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				else
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletAcceptedLuxor01
+					callproc WaitSay
+					// load luxor
+					sendhashcode HT_Trig_Message_Custom1 1
+					//lockcontrols 0
+				endif
+			break
+			case HT_Item_Quest_PortalAmulet_Abydos01
+				if map = HT_File_Map_ab_sewr
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDeniedAbydos01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				elseif map = HT_File_Map_hl_ws1 and obj_horus = 0 and obj_anubis = 3
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDenied01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				else
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletAcceptedAbydos01
+					callproc WaitSay
+					// load abydos
+					sendhashcode HT_Trig_Message_Custom2 1
+					//lockcontrols 0
+				endif
+			break
+			case HT_Item_Quest_PortalAmulet_Heliopolis01
+				if map = HT_File_Map_hl_ext
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDeniedHeliopolis01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				elseif map = HT_File_Map_hl_ws1 and obj_horus = 0 and obj_anubis = 3
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDenied01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				else
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletAcceptedHeliopolis01
+					callproc WaitSay
+					// load heliopolis
+					sendhashcode HT_Trig_Message_Custom3 1
+					//lockcontrols 0
+				endif
+			break
+			case HT_Item_Quest_PortalAmulet_Akaria01
+				if map = HT_File_Aka_2
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDeniedAkaria01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				elseif map = HT_File_Map_hl_ws1 and obj_horus = 0 and obj_anubis = 3
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDenied01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				else
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletAcceptedAkaria01
+					callproc WaitSay
+					// load akaria
+					sendhashcode HT_Trig_Message_Custom4 1
+					//lockcontrols 0
+				endif
+			break
+			case HT_Item_Quest_PortalAmulet_Sakkara01
+				if map = HT_File_Map_sk_01
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDeniedSakkara01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				elseif map = HT_File_Map_hl_ws1 and obj_horus = 0 and obj_anubis = 3
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDenied01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				else
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletAcceptedSakkara01
+					callproc WaitSay
+					// load sakkara
+					sendhashcode HT_Trig_Message_Custom5 1
+					//lockcontrols 0
+				endif
+			break
+			case HT_Item_Quest_PortalAmulet_Uruk01
+				if map = HT_File_Map_ur_hub
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDeniedUruk01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				elseif map = HT_File_Map_hl_ws1 and obj_horus = 0 and obj_anubis = 3
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDenied01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				else
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletAcceptedUruk01
+					callproc WaitSay
+					// load uruk
+					sendhashcode HT_Trig_Message_Custom6 1
+					//lockcontrols 0
+				endif
+			break
+			case HT_Item_Quest_PortalAmulet_DarkArea01
+				if map = HT_File_Map_hl_ws1
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDeniedDarkArea01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				elseif map = HT_File_Map_hl_ws1 and obj_horus = 0 and obj_anubis = 3
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletDenied01
+					callproc WaitSay
+					lockcontrols 0
+					setitemflag HT_GameScript_Control_FreezeMonsters 0
+				else
+					setitemflag HT_GameScript_Control_FreezeMonsters 1
+					lockcontrols 1
+					printmessage HT_Text_Gen_Help_Portal_AmuletAcceptedDarkArea01
+					callproc WaitSay
+					// load dark area 1
+					sendhashcode HT_Trig_Message_Custom7 1
+					//lockcontrols 0
+				endif
+			break
+			default
+				setitemflag HT_GameScript_Control_FreezeMonsters 1
+				lockcontrols 1
+				printmessage HT_Text_Gen_Help_Portal_NoAmulet
+				callproc WaitSay
+				lockcontrols 0
+				setitemflag HT_GameScript_Control_FreezeMonsters 0
+			break
+		endswitch
+
+	// no applicable items
+	elseif MESSAGE = HT_Trig_Message_DontHaveItem
+		setitemflag HT_GameScript_Control_FreezeMonsters 1
+		lockcontrols 1
+		printmessage HT_Text_Gen_Help_Portal_NoAmulet
+		callproc WaitSay
+		lockcontrols 0
+		setitemflag HT_GameScript_Control_FreezeMonsters 0
+	endif
+
+endproc

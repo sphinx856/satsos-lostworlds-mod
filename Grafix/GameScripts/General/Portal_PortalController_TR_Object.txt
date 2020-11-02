@@ -1,0 +1,79 @@
+//* ----------
+//* Links on this tigger should be set up as follows:
+//* Link1 - MO_OC05_Portal
+//* Link2 - CS_XXX (cut scene to play when portal used)
+//* Link3 - TR_Object (LoadRelayMaster)
+//* ----------
+
+defproc onmessage
+
+	switch MESSAGE
+		// portal is active
+		case HT_Trig_Message_Open
+			debugs OPEN
+			debugs <CR>
+		break	
+		// portal is inactive
+		case HT_Trig_Message_Close
+			debugs Close
+			debugs <CR>
+		break
+		// message from TR_UseItem (LUXOR)
+		case HT_Trig_Message_Custom1
+			// activate cut scene
+			sendhashcode HT_Trig_Message_Activate 2
+			wait 120
+			// load level
+			sendhashcode HT_Trig_Message_Custom1 3
+		break
+		// message from TR_UseItem (ABYDOS)
+		case HT_Trig_Message_Custom2
+			// activate cut scene
+			sendhashcode HT_Trig_Message_Activate 2
+			wait 120
+			// load level
+			sendhashcode HT_Trig_Message_Custom2 3
+		break
+		// message from TR_UseItem (HELIOPOLIS)
+		case HT_Trig_Message_Custom3
+			// activate cut scene
+			sendhashcode HT_Trig_Message_Activate 2
+			wait 120
+			// load level
+			sendhashcode HT_Trig_Message_Custom3 3
+		break
+		// message from TR_UseItem (AKARIA)
+		case HT_Trig_Message_Custom4
+			// activate cut scene
+			sendhashcode HT_Trig_Message_Activate 2
+			wait 120
+			// load level
+			sendhashcode HT_Trig_Message_Custom4 3
+		break
+		// message from TR_UseItem (SAKKARA)
+		case HT_Trig_Message_Custom5
+			// activate cut scene
+			sendhashcode HT_Trig_Message_Activate 2
+			wait 120
+			// load level
+			sendhashcode HT_Trig_Message_Custom5 3
+		break
+		// message from TR_UseItem (URUK)
+		case HT_Trig_Message_Custom6
+			// activate cut scene
+			sendhashcode HT_Trig_Message_Activate 2
+			wait 120
+			// load level
+			sendhashcode HT_Trig_Message_Custom6 3
+		break
+		// message from TR_UseItem (DARK AREA 1)
+		case HT_Trig_Message_Custom7
+			// activate cut scene
+			sendhashcode HT_Trig_Message_Activate 2
+			wait 120
+			// load level
+			sendhashcode HT_Trig_Message_Custom7 3
+		break
+	endswitch
+
+endproc

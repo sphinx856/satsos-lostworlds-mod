@@ -1,4 +1,4 @@
-/* Schema: 0001 */
+/* Schema: 0002 */
 /* HT_File */
 #define HT_File_HASHCODE_BASE		0x01000000
 #define HT_File_Test		0x01000001
@@ -762,63 +762,63 @@
 #define HT_File_CS_Urk_Hub		 0x01000316
 #define HT_File_HASHCODE_END		0x01000317
 /* 01000317 */
-
 /* swy: reserved hashcodes for additional language files; the game enables one of these languages if it detects
         that both its FrontEnd and PickUps exist in the Filelist. they aren't shipped with the game, though. */
 #define HT_File_F00_FrontEnd_Portuguese	 0x01ffffff
 #define HT_File_O01_PickUps_Portuguese	 0x01fffffe
-#define HT_File_F00_FrontEnd_Japanese	 0x01fffffd
-#define HT_File_O01_PickUps_Japanese	 0x01fffffc
-#define HT_File_F00_FrontEnd_Greek		 0x01fffffb
-#define HT_File_O01_PickUps_Greek		 0x01fffffa
-#define HT_File_F00_FrontEnd_Dutch		 0x01fffff9
-#define HT_File_O01_PickUps_Dutch		 0x01fffff8
-#define HT_File_F00_FrontEnd_Danish		 0x01fffff7
-#define HT_File_O01_PickUps_Danish		 0x01fffff6
-#define HT_File_F00_FrontEnd_Norwegian	 0x01fffff5
-#define HT_File_O01_PickUps_Norwegian	 0x01fffff4
-#define HT_File_F00_FrontEnd_Swedish	 0x01fffff3
-#define HT_File_O01_PickUps_Swedish		 0x01fffff2
-#define HT_File_F00_FrontEnd_Finnish	 0x01fffff1
-#define HT_File_O01_PickUps_Finnish		 0x01fffff0
-#define HT_File_F00_FrontEnd_Russian	 0x01ffffef
-#define HT_File_O01_PickUps_Russian		 0x01ffffee
-#define HT_File_F00_FrontEnd_TradChinese 0x01ffffed
-#define HT_File_O01_PickUps_TradChinese	 0x01ffffec
-#define HT_File_F00_FrontEnd_SimpChinese 0x01ffffeb
-#define HT_File_O01_PickUps_SimpChinese	 0x01ffffea
-#define HT_File_F00_FrontEnd_Czech		 0x01ffffe9
-#define HT_File_O01_PickUps_Czech		 0x01ffffe8
-#define HT_File_F00_FrontEnd_Polish		 0x01ffffe7
-#define HT_File_O01_PickUps_Polish		 0x01ffffe6
-#define HT_File_F00_FrontEnd_FrenchCan	 0x01ffffe5
-#define HT_File_O01_PickUps_FrenchCan  	 0x01ffffe4
-#define HT_File_F00_FrontEnd_SpanishLa   0x01ffffe3
-#define HT_File_O01_PickUps_SpanishLa  	 0x01ffffe2
-#define HT_File_F00_FrontEnd_Hungarian 	 0x01ffffe1
-#define HT_File_O01_PickUps_Hungarian  	 0x01ffffe0
-#define HT_File_F00_FrontEnd_Brazilian	 0x01ffffdf
-#define HT_File_O01_PickUps_Brazilian	 0x01ffffde
-#define HT_File_F00_FrontEnd_Turkish	 0x01ffffdd
-#define HT_File_O01_PickUps_Turkish		 0x01ffffdc
-#define HT_File_F00_FrontEnd_Arabic		 0x01ffffdb
-#define HT_File_O01_PickUps_Arabic		 0x01ffffda
-#define HT_File_F00_FrontEnd_Romanian	 0x01ffffd9
-#define HT_File_O01_PickUps_Romanian	 0x01ffffd8
-#define HT_File_F00_FrontEnd_Thai		 0x01ffffd7
-#define HT_File_O01_PickUps_Thai		 0x01ffffd6
-#define HT_File_F00_FrontEnd_Vietnamese	 0x01ffffd5
-#define HT_File_O01_PickUps_Vietnamese	 0x01ffffd4
-#define HT_File_F00_FrontEnd_Indonesian	 0x01ffffd3
-#define HT_File_O01_PickUps_Indonesian	 0x01ffffd2
-#define HT_File_F00_FrontEnd_Latvian	 0x01ffffd1
-#define HT_File_O01_PickUps_Latvian		 0x01ffffd0
-#define HT_File_F00_FrontEnd_Bulgarian	 0x01ffffcf
-#define HT_File_O01_PickUps_Bulgarian	 0x01ffffce
-#define HT_File_F00_FrontEnd_Ukrainian	 0x01ffffcd
-#define HT_File_O01_PickUps_Ukrainian	 0x01ffffcc
-/* swy: NOTE: as you can see these hardcoded hashcodes are issued
-              backwards, for mod compatibility reasons */
+/* #define HT_File_F00_FrontEnd_Korean		 0x01fffffd (already defined in 2003) */
+/* #define HT_File_O01_PickUps_Korean		 0x01fffffc (already defined in 2003) */
+#define HT_File_F00_FrontEnd_Japanese	 0x01fffffb
+#define HT_File_O01_PickUps_Japanese	 0x01fffffa
+#define HT_File_F00_FrontEnd_Greek		 0x01fffff9
+#define HT_File_O01_PickUps_Greek		 0x01fffff8
+#define HT_File_F00_FrontEnd_Dutch		 0x01fffff7
+#define HT_File_O01_PickUps_Dutch		 0x01fffff6
+#define HT_File_F00_FrontEnd_Danish		 0x01fffff5
+#define HT_File_O01_PickUps_Danish		 0x01fffff4
+#define HT_File_F00_FrontEnd_Norwegian	 0x01fffff3
+#define HT_File_O01_PickUps_Norwegian	 0x01fffff2
+#define HT_File_F00_FrontEnd_Swedish	 0x01fffff1
+#define HT_File_O01_PickUps_Swedish		 0x01fffff0
+#define HT_File_F00_FrontEnd_Finnish	 0x01ffffef
+#define HT_File_O01_PickUps_Finnish		 0x01ffffee
+#define HT_File_F00_FrontEnd_Russian	 0x01ffffed
+#define HT_File_O01_PickUps_Russian		 0x01ffffec
+#define HT_File_F00_FrontEnd_TradChinese 0x01ffffeb
+#define HT_File_O01_PickUps_TradChinese	 0x01ffffea
+#define HT_File_F00_FrontEnd_SimpChinese 0x01ffffe9
+#define HT_File_O01_PickUps_SimpChinese	 0x01ffffe8
+#define HT_File_F00_FrontEnd_Czech		 0x01ffffe7
+#define HT_File_O01_PickUps_Czech		 0x01ffffe6
+#define HT_File_F00_FrontEnd_Polish		 0x01ffffe5
+#define HT_File_O01_PickUps_Polish		 0x01ffffe4
+#define HT_File_F00_FrontEnd_FrenchCan	 0x01ffffe3
+#define HT_File_O01_PickUps_FrenchCan  	 0x01ffffe2
+#define HT_File_F00_FrontEnd_SpanishLa   0x01ffffe1
+#define HT_File_O01_PickUps_SpanishLa  	 0x01ffffe0
+#define HT_File_F00_FrontEnd_Hungarian 	 0x01ffffdf
+#define HT_File_O01_PickUps_Hungarian  	 0x01ffffde
+#define HT_File_F00_FrontEnd_Brazilian	 0x01ffffdd
+#define HT_File_O01_PickUps_Brazilian	 0x01ffffdc
+#define HT_File_F00_FrontEnd_Turkish	 0x01ffffdb
+#define HT_File_O01_PickUps_Turkish		 0x01ffffda
+#define HT_File_F00_FrontEnd_Arabic		 0x01ffffd9
+#define HT_File_O01_PickUps_Arabic		 0x01ffffd8
+#define HT_File_F00_FrontEnd_Romanian	 0x01ffffd7
+#define HT_File_O01_PickUps_Romanian	 0x01ffffd6
+#define HT_File_F00_FrontEnd_Thai		 0x01ffffd5
+#define HT_File_O01_PickUps_Thai		 0x01ffffd4
+#define HT_File_F00_FrontEnd_Vietnamese	 0x01ffffd3
+#define HT_File_O01_PickUps_Vietnamese	 0x01ffffd2
+#define HT_File_F00_FrontEnd_Indonesian	 0x01ffffd1
+#define HT_File_O01_PickUps_Indonesian	 0x01ffffd0
+#define HT_File_F00_FrontEnd_Latvian	 0x01ffffcf
+#define HT_File_O01_PickUps_Latvian		 0x01ffffce
+#define HT_File_F00_FrontEnd_Bulgarian	 0x01ffffcd
+#define HT_File_O01_PickUps_Bulgarian	 0x01ffffcc
+#define HT_File_F00_FrontEnd_Ukrainian	 0x01ffffcb
+#define HT_File_O01_PickUps_Ukrainian	 0x01ffffca
+/* swy: NOTE: as you can see these hardcoded hashcodes are issued backwards, for mod compatibility reasons */
 
 /* HT_Entity */
 #define HT_Entity_HASHCODE_BASE	   	0x02000000
@@ -1105,6 +1105,39 @@
 #define HT_Entity_HUD_XB_RightShoulderFace_French		 0x02000122
 #define HT_Entity_HASHCODE_END		 0x02000123
 /* 02000123 */
+
+/* swy: reserved hashcodes for additional loading screen meshes; the game enables one of these languages if it detects
+        that both its FrontEnd and PickUps exist in the Filelist. they aren't shipped with the game, though. */
+#define HT_Entity_LS_DefaultLS_Portuguese	 0x02ffffff
+/* #define HT_Entity_LS_DefaultLS_Korean		 0x02fffffe (already defined in 2003) */
+/* #define HT_Entity_LS_DefaultLS_Japanese		 0x02fffffd (already defined in 2003; cancelled) */
+#define HT_Entity_LS_DefaultLS_Greek		 0x02fffffc
+#define HT_Entity_LS_DefaultLS_Dutch		 0x02fffffb
+#define HT_Entity_LS_DefaultLS_Danish		 0x02fffffa
+#define HT_Entity_LS_DefaultLS_Norwegian	 0x02fffff9
+#define HT_Entity_LS_DefaultLS_Swedish		 0x02fffff8
+#define HT_Entity_LS_DefaultLS_Finnish		 0x02fffff7
+#define HT_Entity_LS_DefaultLS_Russian		 0x02fffff6
+#define HT_Entity_LS_DefaultLS_TradChinese	 0x02fffff5
+#define HT_Entity_LS_DefaultLS_SimpChinese	 0x02fffff4
+#define HT_Entity_LS_DefaultLS_Czech		 0x02fffff3
+#define HT_Entity_LS_DefaultLS_Polish		 0x02fffff2
+#define HT_Entity_LS_DefaultLS_FrenchCan	 0x02fffff1
+#define HT_Entity_LS_DefaultLS_SpanishLa	 0x02fffff0
+#define HT_Entity_LS_DefaultLS_Hungarian	 0x02ffffef
+#define HT_Entity_LS_DefaultLS_Brazilian	 0x02ffffee
+#define HT_Entity_LS_DefaultLS_Turkish		 0x02ffffed
+#define HT_Entity_LS_DefaultLS_Arabic		 0x02ffffec
+#define HT_Entity_LS_DefaultLS_Romanian		 0x02ffffeb
+#define HT_Entity_LS_DefaultLS_Thai			 0x02ffffea
+#define HT_Entity_LS_DefaultLS_Vietnamese	 0x02ffffe9
+#define HT_Entity_LS_DefaultLS_Indonesian	 0x02ffffe8
+#define HT_Entity_LS_DefaultLS_Latvian		 0x02ffffe7
+#define HT_Entity_LS_DefaultLS_Bulgarian	 0x02ffffe6
+#define HT_Entity_LS_DefaultLS_Ukrainian	 0x02ffffe5
+/* swy: NOTE: as you can see these hardcoded hashcodes are issued
+              backwards, for mod compatibility reasons */
+
 /* HT_Animation */
 #define HT_Animation_HASHCODE_BASE		0x03000000
 #define HT_Animation_Test	   	0x03100001
@@ -1496,7 +1529,7 @@
 #define HT_Texture_Icon_CrystalKeyRed		 0x06000132
 #define HT_Texture_Icon_CrystalKeyMulticolor		 0x06000133
 #define HT_Texture_HASHCODE_END		0x06000134
-/* 06000135 */
+/* 06000134 */
 /* HT_Font */
 #define HT_Font_HASHCODE_BASE		0x07000000
 #define HT_Font_Test		 0x07000001
@@ -1534,6 +1567,39 @@
 #define HT_Font_BigFont		 0x07000021
 #define HT_Font_HASHCODE_END		 0x07000022
 /* 07000022 */
+
+/* swy: reserved hashcodes for additional language fonts; the game enables one of these languages if it detects
+        that both its FrontEnd and PickUps exist in the Filelist. they aren't shipped with the game, though. */
+#define HT_Font_Default_PORTUGUESE      0x07ffffff
+/* #define HT_Font_Default_KOREAN          0x07fffffe (already defined in 2003) */
+/* #define HT_Font_Default_JAPAN           0x07fffffd (already defined in 2003; cancelled) */
+#define HT_Font_Default_GREEK           0x07fffffc
+#define HT_Font_Default_DUTCH           0x07fffffb
+#define HT_Font_Default_DANISH          0x07fffffa
+#define HT_Font_Default_NORWEGIAN       0x07fffff9
+#define HT_Font_Default_SWEDISH         0x07fffff8
+#define HT_Font_Default_FINNISH         0x07fffff7
+#define HT_Font_Default_RUSSIAN         0x07fffff6
+#define HT_Font_Default_TRADCHINESE     0x07fffff5
+#define HT_Font_Default_SIMPCHINESE     0x07fffff4
+#define HT_Font_Default_CZECH           0x07fffff3
+#define HT_Font_Default_POLISH          0x07fffff2
+#define HT_Font_Default_FRENCH_CAN      0x07fffff1
+#define HT_Font_Default_SPANISH_LA      0x07fffff0
+#define HT_Font_Default_HUNGARIAN       0x07ffffef
+#define HT_Font_Default_BRAZILIAN       0x07ffffee
+#define HT_Font_Default_TURKISH         0x07ffffed
+#define HT_Font_Default_ARABIC          0x07ffffec
+#define HT_Font_Default_ROMANIAN        0x07ffffeb
+#define HT_Font_Default_THAI            0x07ffffea
+#define HT_Font_Default_VIETNAMESE      0x07ffffe9
+#define HT_Font_Default_INDONESIAN      0x07ffffe8
+#define HT_Font_Default_LATVIAN         0x07ffffe7
+#define HT_Font_Default_BULGARIAN       0x07ffffe6
+#define HT_Font_Default_UKRAINIAN       0x07ffffe5
+/* swy: NOTE: as you can see these hardcoded hashcodes are issued
+              backwards, for mod compatibility reasons */
+
 /* HT_Script */
 #define HT_Script_HASHCODE_BASE	   	0x04000000
 #define HT_Script_Test	   	0x04000001
@@ -6989,7 +7055,7 @@
 #define HT_Particle_IO_ak_du2_FX_Magic_Crystal_Hit_Pink		 0x1100017d
 #define HT_Particle__sk_01_FX_dust_whirl		 0x1100017e
 #define HT_Particle_HASHCODE_END		 0x1100017f
-/* 11000180 */
+/* 1100017f */
 /* HT_Frustrum */
 #define HT_Frustrum_HASHCODE_BASE		 0x12000000
 #define HT_Frustrum_Test		 0x12000001
@@ -7570,7 +7636,7 @@
 #define HT_Item_Quest_fish		 0x40010090
 #define HT_Item_Quest_CrystalKey4		 0x40010091
 #define HT_Item_Quest_HASHCODE_END		 0x40010092
-/* 40010093 */
+/* 40010092 */
 /* HT_Item_Ability */
 #define HT_Item_Ability_HASHCODE_BASE		 0x40020000
 #define HT_Item_Ability_AncientClaws		 0x40020001
@@ -9916,8 +9982,11 @@
 #define HT_Objective_Aby_South_RiddlemanThanks		0x4200065a
 #define HT_Objective_Sak_7_AnkhPieceChest		0x4200065b
 #define HT_Objective_ShadowOfSetMod_Version		0x4200065c
-#define HT_Objective_HASHCODE_END		0x4200065d
-/* 4200065b */
+#define HT_Objective_Sak_06_ChainCoverLever		 0x4200065d
+#define HT_Objective_Sak_06_ChainCoverCamera		 0x4200065e
+#define HT_Objective_Sak_06_Rock		 0x4200065f
+#define HT_Objective_HASHCODE_END		0x42000660
+/* 42000660 */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001
@@ -14032,8 +14101,20 @@
 #define HT_GameScript_Macro_CameraModePlayer		 0x45300006
 #define HT_GameScript_Macro_IsHelpFading		 0x45300007
 #define HT_GameScript_Macro_AwardAchievement	 0x45300008
-#define HT_GameScript_Macro_HASHCODE_END		 0x45300009
-/* 45300008 */
+#define HT_GameScript_Macro_AwardAchievement	 0x45300008
+#define HT_GameScript_Macro_GetModValue		 0x45300009
+#define HT_GameScript_Macro_SetModValue		 0x4530000a
+#define HT_GameScript_Macro_GetGlobalValue		 0x4530000b
+#define HT_GameScript_Macro_SetGlobalValue		 0x4530000c
+#define HT_GameScript_Macro_GetSaveSlot		 0x4530000d
+#define HT_GameScript_Macro_GetGameVersion		 0x4530000e
+#define HT_GameScript_Macro_GetTimeDate		 0x4530000f
+#define HT_GameScript_Macro_GetAnimSkin		 0x45300010
+#define HT_GameScript_Macro_SetAnimSkin		 0x45300011
+#define HT_GameScript_Macro_AddAnimator		 0x45300012
+#define HT_GameScript_Macro_RemoveAnimator		 0x45300013
+#define HT_GameScript_Macro_HASHCODE_END		 0x45300014
+/* 45300014 */
 /* HT_SetupInventory */
 #define HT_SetupInventory_HASHCODE_BASE		 0x45400000
 #define HT_SetupInventory_Hero		 0x45400001

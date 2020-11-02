@@ -1,0 +1,50 @@
+//* ----------
+//* Links on this tigger should be set up as follows:
+//* Link1 - TR_LoadLevel (Luxor)
+//* Link2 - TR_LoadLevel (Abydos)
+//* Link3 - TR_LoadLevel (Heliopolis)
+//* Link4 - TR_LoadLevel (Akaria)
+//* Link5 - TR_LoadLevel (Sakkara)
+//* Link6 - TR_LoadLevel (Uruk Fortress)
+//* Link7 - TR_LoadLevel (Dark Area 1)
+//* ----------
+
+defproc onmessage
+	switch MESSAGE
+		// LUXOR
+		case HT_Trig_Message_Custom1
+			// load level
+			sendhashcode HT_Trig_Message_Activate 1
+		break
+		// ABYDOS
+		case HT_Trig_Message_Custom2
+			// load level
+			sendhashcode HT_Trig_Message_Activate 2
+		break
+		// HELIOPOLIS
+		case HT_Trig_Message_Custom3
+			// load level
+			sendhashcode HT_Trig_Message_Activate 3
+		break
+		// AKARIA
+		case HT_Trig_Message_Custom4
+			// load level
+			sendhashcode HT_Trig_Message_Activate 4
+		break
+		// SAKKARA
+		case HT_Trig_Message_Custom5
+			// load level
+			sendhashcode HT_Trig_Message_Activate 5
+		break
+		// URUK FORTRESS
+		case HT_Trig_Message_Custom6
+			// load level
+			sendhashcode HT_Trig_Message_Activate 6
+		break
+		// DARK AREA 1
+		case HT_Trig_Message_Custom7
+			// load level
+			sendhashcode HT_Trig_Message_Activate 7
+		break
+	endswitch
+endproc
