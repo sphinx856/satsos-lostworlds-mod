@@ -557,19 +557,20 @@ x:\sphinx\binary\_bin_ps2\hd31_v01.edb
 x:\sphinx\binary\_bin_ps2\hd36_v01.edb
 x:\sphinx\binary\_bin_ps2\hd76_mos.edb
 
-x:\sphinx\binary\_bin_ps2\csabsth.edb 
+x:\sphinx\binary\_bin_ps2\csabsth.edb
 x:\sphinx\binary\_bin_ps2\io_ab_st.edb
 x:\sphinx\binary\_bin_ps2\_ab_sth.edb
-# HU11,HD13,HD16,HD21,HD24,HD25,HD29,HD30,HD32,HD36,HD38,HD57,HD58
+# HU11,HD13,HD16,HD21,HD24,HD25,HD29,HD30,HD32,HD33,HD36,HD38,HD57,HD58
 x:\sphinx\binary\_bin_ps2\hu11_fat.edb
-x:\sphinx\binary\_bin_ps2\hd13_rac.edb 
-x:\sphinx\binary\_bin_ps2\hd16_bir.edb 
+x:\sphinx\binary\_bin_ps2\hd13_rac.edb
+x:\sphinx\binary\_bin_ps2\hd16_bir.edb
 x:\sphinx\binary\_bin_ps2\hd21_s01.edb
 x:\sphinx\binary\_bin_ps2\hd24_kem.edb
 x:\sphinx\binary\_bin_ps2\hd25_v01.edb
 x:\sphinx\binary\_bin_ps2\hd29_v01.edb
 x:\sphinx\binary\_bin_ps2\hd30_v03.edb
 x:\sphinx\binary\_bin_ps2\hd32_cur.edb
+x:\sphinx\binary\_bin_ps2\hd33_ric.edb
 x:\sphinx\binary\_bin_ps2\hd36_v01.edb
 x:\sphinx\binary\_bin_ps2\hd38_v04.edb
 x:\sphinx\binary\_bin_ps2\hd57_for.edb
