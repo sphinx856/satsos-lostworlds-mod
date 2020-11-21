@@ -9985,8 +9985,9 @@
 #define HT_Objective_Sak_06_ChainCoverLever		 0x4200065d
 #define HT_Objective_Sak_06_ChainCoverCamera		 0x4200065e
 #define HT_Objective_Sak_06_Rock		 0x4200065f
-#define HT_Objective_HASHCODE_END		0x42000660
-/* 42000660 */
+#define HT_Objective_Hel_DarkArea3_GlyphRamp		0x42000660
+#define HT_Objective_HASHCODE_END		0x42000661
+/* 42000661 */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001
