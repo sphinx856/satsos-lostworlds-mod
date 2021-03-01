@@ -5087,8 +5087,10 @@
 #define HT_Script_CS_Sak_TempleEntrance_Gatekeeper_CollectSquirts		0x04000db8
 #define HT_Script_CS_Sakk_4_ShootGebTarget		0x04000db9
 #define HT_Script_CS_Sakk_1_Intrepid_Got_Acid_Darts		0x04000dba
-#define HT_Script_HASHCODE_END		0x04000dbb
-/* 04000dbb */
+#define HT_Script_CS_Aka_3_Ishka_Escapes		0x04000dbb
+#define HT_Script_Aby_Sth_CS_Upper_Bourgeoisie_Tower		0x04000dbc
+#define HT_Script_HASHCODE_END		0x04000dbd
+/* 04000dbd */
 /* HT_AnimMode */
 #define HT_AnimMode_HASHCODE_BASE		0x09000000
 #define HT_AnimMode_Idle_1		 0x09000000
@@ -8468,7 +8470,7 @@
 #define HT_Objective_Aka_Temple_Pearl1On		 0x4200005c
 #define HT_Objective_Aka_Temple_Pearl2On		 0x4200005d
 #define HT_Objective_Aka_Temple_Pearl3On		 0x4200005e
-#define HT_Objective_Aka_Temple_Pearl4On		 0x4200005f
+#define HT_Objective_Aka_3_CS_IshkaEscapes		 0x4200005f
 #define HT_Objective_Aka_Slide_PalaceDoorOpen		 0x42000060
 #define HT_Objective_Aka_CrystalDoor4a		 0x42000061
 #define HT_Objective_Aka_CrystalDoor4b		 0x42000062
@@ -8912,7 +8914,7 @@
 #define HT_Objective_Urk_2key_Bridge01Lock		 0x42000220
 #define HT_Objective_Urk_2key_Bridge02Lock		 0x42000221
 #define HT_Objective_Hel_CursedPalace_MotherNumChihuahuasLeft		 0x42000222
-#define HT_Objective_Aka_GiveProof		 0x42000223
+#define HT_Objective_Aka_2_Chest01_Camera		 0x42000223
 #define HT_Objective_Sak_CS_1FlyingCamera		 0x42000224
 #define HT_Objective_Sak_CS_1GebAttack		 0x42000225
 #define HT_Objective_Sak_CS_1Berry		 0x42000226
@@ -9958,8 +9960,9 @@
 #define HT_Objective_Sak_06_ChainCoverCamera		 0x4200065e
 #define HT_Objective_Sak_06_Rock		 0x4200065f
 #define HT_Objective_Hel_DarkArea3_GlyphRamp		0x42000660
-#define HT_Objective_HASHCODE_END		0x42000661
-/* 42000661 */
+#define HT_Objective_Aby_South_CS_Upper_Bourgeoisie_Tower		0x42000661
+#define HT_Objective_HASHCODE_END		0x42000662
+/* 42000662 */
 /* HT_Text */
 #define HT_Text_HASHCODE_BASE		0x43000000
 #define HT_Text_SaltCrystalDissolved		0x43000001

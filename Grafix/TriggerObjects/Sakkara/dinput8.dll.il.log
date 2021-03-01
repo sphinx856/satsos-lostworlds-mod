@@ -1,0 +1,1376 @@
+--- Welcome to Iron Launcher 2017.02.16.1337
+--- Swyter wishes you a nice day!
+
+[I] parent exe path: X:\EngineX\utils\EuroLandRedux.exe 
+    parent exe handle: 000B0000 
+    dll self handle: 69540000 
+    dll self path: X:\EngineX\utils\d3d8.dll 
+
+[I] thread started
+[!] --
+[!] image name: X:\EngineX\utils\EuroLandRedux.exe image base: b0000, import virtualaddr: 1413848 first thunk: 1413270
+[I] import name: WINMM.dll, first thunk: 1413270
+[I]   int: timeKillEvent/141a498, iat: 739d3c00
+[I]   int: timeSetEvent/141a488, iat: 739d38d0
+[I]   int: timeGetTime/14152a6, iat: 739d47a0
+[I]   int: PlaySoundA/1415298, iat: 739e69d0
+[I] import name: SHLWAPI.dll, first thunk: 1412bec
+[I]   int: PathFindExtensionA/141a4a8, iat: 766ba240
+[I]   int: PathFindFileNameA/141a4be, iat: 766b5290
+[I]   int: PathRemoveExtensionA/141a4d2, iat: 766ba670
+[I]   int: PathRemoveFileSpecW/141a4ea, iat: 766b4f80
+[I]   int: PathIsUNCA/141a500, iat: 766ba420
+[I]   int: PathStripToRootA/141a50e, iat: 766ba760
+[I]   int: UrlUnescapeA/141a522, iat: 766bb320
+[I]   int: StrFormatKBSizeA/141a532, iat: 766c3060
+[I]   int: PathRemoveFileSpecA/14152be, iat: 766ba680
+[I] import name: FreeXL.dll, first thunk: 1412188
+[I]   int: freexl_get_worksheet_name/1415310, iat: 747273a0
+[I]   int: freexl_select_active_worksheet/141532c, iat: 74727420
+[I]   int: freexl_worksheet_dimensions/141534e, iat: 74727510
+[I]   int: freexl_get_cell_value/141536c, iat: 74727600
+[I]   int: freexl_close/14152ee, iat: 74726c90
+[I]   int: freexl_get_info/14152fe, iat: 74726cd0
+[I]   int: freexl_open/14152e0, iat: 74726c50
+[I] import name: RPly.dll, first thunk: 1412ae8
+[I]   int: ply_get_ply_user_data/1415390, iat: 747320d0
+[I]   int: ply_open/14153a8, iat: 74731100
+[I]   int: ply_read_header/14153b4, iat: 74731200
+[I]   int: ply_set_read_cb/14153c6, iat: 747314b0
+[I]   int: ply_get_argument_element/14153d8, iat: 74732010
+[I]   int: ply_get_argument_property/14153f4, iat: 74732040
+[I]   int: ply_get_argument_user_data/1415410, iat: 74732080
+[I]   int: ply_get_argument_value/141542e, iat: 747320b0
+[I]   int: ply_read/1415448, iat: 74731590
+[I]   int: ply_get_next_element/1415454, iat: 74731ec0
+[I]   int: ply_get_element_info/141546c, iat: 74731ef0
+[I]   int: ply_get_next_property/1415484, iat: 74731f20
+[I]   int: ply_get_property_info/141549c, iat: 74731f60
+[I]   int: ply_create/14154b4, iat: 74731670
+[I]   int: ply_add_element/14154c2, iat: 74731770
+[I]   int: ply_add_list_property/14154d4, iat: 747318a0
+[I]   int: ply_add_scalar_property/14154ec, iat: 74731810
+[I]   int: ply_add_comment/1415506, iat: 74731980
+[I]   int: ply_write_header/1415518, iat: 74731a60
+[I]   int: ply_write/141552c, iat: 74731c10
+[I]   int: ply_close/1415538, iat: 74731de0
+[I] import name: libfbxsdk.dll, first thunk: 1413464
+[I]   int: ??BFbxString@fbxsdk@@QBEPBDXZ/14156b6, iat: 69688870
+[I]   int: ??Hfbxsdk@@YA?AVFbxString@0@ABV10@PBD@Z/141568c, iat: 69688250
+[I]   int: ?GetNameOnly@FbxObject@fbxsdk@@QBE?AVFbxString@2@XZ/14159cc, iat: 6966c170
+[I]   int: ?Create@FbxManager@fbxsdk@@SAPAV12@XZ/1415a02, iat: 6963bc10
+[I]   int: ?GetStatus@FbxIOBase@fbxsdk@@QAEAAVFbxStatus@2@XZ/1415a2a, iat: 696663d0
+[I]   int: ?Create@FbxIOSettings@fbxsdk@@SAPAV12@PAVFbxManager@2@PBD@Z/1415a5e, iat: 696b0720
+[I]   int: ?Create@FbxExporter@fbxsdk@@SAPAV12@PAVFbxManager@2@PBD@Z/1415a9c, iat: 6969f880
+[I]   int: ?Export@FbxExporter@fbxsdk@@QAE_NPAVFbxDocument@2@_N@Z/1415ad8, iat: 6969fb20
+[I]   int: ??0FbxAxisSystem@fbxsdk@@QAE@W4EPreDefinedAxisSystem@01@@Z/1415b12, iat: 6982ba10
+[I]   int: ??1FbxAxisSystem@fbxsdk@@UAE@XZ/1415b50, iat: 6982bbd0
+[I]   int: ?Create@FbxNode@fbxsdk@@SAPAV12@PAVFbxObject@2@PBD@Z/1415b72, iat: 698b7020
+[I]   int: ?AddChild@FbxNode@fbxsdk@@QAE_NPAV12@@Z/1415baa, iat: 698b71c0
+[I]   int: ?SetNodeAttribute@FbxNode@fbxsdk@@QAEPAVFbxNodeAttribute@2@PAV32@@Z/1415bd4, iat: 698b78f0
+[I]   int: ?EvaluateGlobalTransform@FbxNode@fbxsdk@@QAEAAVFbxAMatrix@2@VFbxTime@2@W4EPivotSet@12@_N2@Z/1415c1a, iat: 698ba9a0
+[I]   int: ?Create@FbxAnimStack@fbxsdk@@SAPAV12@PAVFbxObject@2@PBD@Z/1415c78, iat: 6984feb0
+[I]   int: ?SetMappingType@FbxTexture@fbxsdk@@QAEXW4EMappingType@12@@Z/1415cb4, iat: 698e00f0
+[I]   int: ?SetTextureUse@FbxTexture@fbxsdk@@QAEXW4ETextureUse@12@@Z/1415cf2, iat: 698e0240
+[I]   int: ?SetMappingMode@FbxLayerElement@fbxsdk@@QAEXW4EMappingMode@12@@Z/1415d2e, iat: 6966a620
+[I]   int: ?SetReferenceMode@FbxLayerElement@fbxsdk@@QAEXW4EReferenceMode@12@@Z/1415d72, iat: 6966b1e0
+[I]   int: ?Add@FbxLayerElementArray@fbxsdk@@QAEHPBXW4EFbxType@2@@Z/1415dba, iat: 698a2470
+[I]   int: ?GetDirectArray@?$FbxLayerElementTemplate@VFbxVector2@fbxsdk@@@fbxsdk@@QAEAAV?$FbxLayerElementArrayTemplate@VFbxVector2@fbxsdk@@@2@XZ/1415df6, iat: 69664ec0
+[I]   int: ?GetIndexArray@?$FbxLayerElementTemplate@VFbxVector2@fbxsdk@@@fbxsdk@@QAEAAV?$FbxLayerElementArrayTemplate@H@2@XZ/1415e7e, iat: 69665650
+[I]   int: ?GetDirectArray@?$FbxLayerElementTemplate@VFbxColor@fbxsdk@@@fbxsdk@@QAEAAV?$FbxLayerElementArrayTemplate@VFbxColor@fbxsdk@@@2@XZ/1415ef2, iat: 69664ec0
+[I]   int: ?SetOriginalUpAxis@FbxGlobalSettings@fbxsdk@@QAEXABVFbxAxisSystem@2@@Z/1415f76, iat: 696a3610
+[I]   int: ?SetOriginalSystemUnit@FbxGlobalSettings@fbxsdk@@QAEXABVFbxSystemUnit@2@@Z/1415fc0, iat: 696a3750
+[I]   int: ?SetTimeMode@FbxGlobalSettings@fbxsdk@@QAEXW4EMode@FbxTime@2@@Z/141600e, iat: 696a39f0
+[I]   int: ?GetRootNode@FbxScene@fbxsdk@@QBEPAVFbxNode@2@XZ/14160c2, iat: 698371b0
+[I]   int: ?Compare@FbxString@fbxsdk@@QBEHPBD@Z/14156d6, iat: 69688990
+[I]   int: ?GetErrorString@FbxStatus@fbxsdk@@QBEPBDXZ/14156fe, iat: 69686e60
+[I]   int: ?Create@FbxFileTexture@fbxsdk@@SAPAV12@PAVFbxObject@2@PBD@Z/1416786, iat: 698da950
+[I]   int: ?GetClusterCount@FbxSkin@fbxsdk@@QBEHXZ/141675c, iat: 698cbb10
+[I]   int: ?AddCluster@FbxSkin@fbxsdk@@QAE_NPAVFbxCluster@2@@Z/1416726, iat: 698cbad0
+[I]   int: ?Create@FbxSkin@fbxsdk@@SAPAV12@PAVFbxObject@2@PBD@Z/14166ee, iat: 698cb890
+[I]   int: ?SetLimbNodeColor@FbxSkeleton@fbxsdk@@QAE_NABVFbxColor@2@@Z/14166b0, iat: 698cb270
+[I]   int: ?SetSkeletonType@FbxSkeleton@fbxsdk@@QAEXW4EType@12@@Z/1416676, iat: 698cb1e0
+[I]   int: ?Create@FbxSkeleton@fbxsdk@@SAPAV12@PAVFbxManager@2@PBD@Z/141663a, iat: 698cb0a0
+[I]   int: ?BuildMeshEdgeArray@FbxMesh@fbxsdk@@QAEXXZ/141660c, iat: 698af5c0
+[I]   int: ?EndPolygon@FbxMesh@fbxsdk@@QAEXXZ/14165e6, iat: 698aa4a0
+[I]   int: ?AddPolygon@FbxMesh@fbxsdk@@QAEXHH@Z/14165be, iat: 698aa3f0
+[I]   int: ?BeginPolygon@FbxMesh@fbxsdk@@QAEXHHH_N@Z/1416592, iat: 698aa1b0
+[I]   int: ?Create@FbxMesh@fbxsdk@@SAPAV12@PAVFbxObject@2@PBD@Z/141655a, iat: 698aa0e0
+[I]   int: ?AddDeformer@FbxGeometry@fbxsdk@@QAEHPAVFbxDeformer@2@@Z/141651e, iat: 6989d270
+[I]   int: ?Create@FbxShape@fbxsdk@@SAPAV12@PAVFbxObject@2@PBD@Z/14164e6, iat: 698ca940
+[I]   int: ?CreateElementUV@FbxGeometryBase@fbxsdk@@QAEPAVFbxLayerElementUV@2@PBDW4EType@FbxLayerElement@2@@Z/1416480, iat: 698a07a0
+[I]   int: ?CreateElementVertexColor@FbxGeometryBase@fbxsdk@@QAEPAVFbxLayerElementVertexColor@2@XZ/1416426, iat: 698a0420
+[I]   int: ?SetTransformLinkMatrix@FbxCluster@fbxsdk@@QAEXABVFbxAMatrix@2@@Z/14163e2, iat: 6989c880
+[I]   int: ?SetTransformMatrix@FbxCluster@fbxsdk@@QAEXABVFbxAMatrix@2@@Z/14163a2, iat: 6989c790
+[I]   int: ?GetControlPointIndicesCount@FbxCluster@fbxsdk@@QBEHXZ/1416368, iat: 6989c730
+[I]   int: ?AddControlPointIndex@FbxCluster@fbxsdk@@QAEXHN@Z/1416334, iat: 6989c6f0
+[I]   int: ?SetLink@FbxCluster@fbxsdk@@QAEXPBVFbxNode@2@@Z/1416302, iat: 6989c470
+[I]   int: ?SetLinkMode@FbxCluster@fbxsdk@@QAEXW4ELinkMode@12@@Z/14162ca, iat: 6989c450
+[I]   int: ?Create@FbxCluster@fbxsdk@@SAPAV12@PAVFbxManager@2@PBD@Z/141628e, iat: 6989c260
+[I]   int: ?AddTargetShape@FbxBlendShapeChannel@fbxsdk@@QAE_NPAVFbxShape@2@N@Z/1416248, iat: 6988f8e0
+[I]   int: ?Create@FbxBlendShapeChannel@fbxsdk@@SAPAV12@PAVFbxObject@2@PBD@Z/1416204, iat: 6988f6d0
+[I]   int: ?AddBlendShapeChannel@FbxBlendShape@fbxsdk@@QAE_NPAVFbxBlendShapeChannel@2@@Z/14161b4, iat: 6988f070
+[I]   int: ?Create@FbxBlendShape@fbxsdk@@SAPAV12@PAVFbxObject@2@PBD@Z/1416176, iat: 6988ee90
+[I]   int: ?Create@FbxAnimLayer@fbxsdk@@SAPAV12@PAVFbxObject@2@PBD@Z/141613a, iat: 6984f830
+[I]   int: ?GetGlobalSettings@FbxScene@fbxsdk@@QAEAAVFbxGlobalSettings@2@XZ/14160f6, iat: 69837df0
+[I]   int: ??0FbxTime@fbxsdk@@QAE@_J@Z/141572c, iat: 696801b0
+[I]   int: ?SetFrame@FbxTime@fbxsdk@@QAEX_JW4EMode@12@@Z/141574a, iat: 6968a5c0
+[I]   int: ??0FbxVector2@fbxsdk@@QAE@NN@Z/141577a, iat: 6969d060
+[I]   int: ??1FbxVector2@fbxsdk@@QAE@XZ/141579c, iat: 6964fb20
+[I]   int: ??0FbxVector4@fbxsdk@@QAE@NNNN@Z/14157bc, iat: 6969d650
+[I]   int: ??4FbxVector4@fbxsdk@@QAEAAV01@ABV01@@Z/14157e0, iat: 6969d710
+[I]   int: ?SetFileName@FbxFileTexture@fbxsdk@@QAE_NPBD@Z/14167c4, iat: 698daa20
+[I]   int: ?SetMaterialUse@FbxFileTexture@fbxsdk@@QAEXW4EMaterialUse@12@@Z/14167f6, iat: 698daae0
+[I]   int: ?m@FbxSystemUnit@fbxsdk@@2V12@B/1416838, iat: 69d9e1f8
+[I]   int: ?sDEFAULT_WEIGHT@FbxAnimCurveDef@fbxsdk@@2MB/141685a, iat: 69c1f2d0
+[I]   int: ??1FbxVector4@fbxsdk@@QAE@XZ/141580a, iat: 6964fb20
+[I]   int: ?GetIOPluginRegistry@FbxManager@fbxsdk@@QBEPAVFbxIOPluginRegistry@2@XZ/14168bc, iat: 6963c760
+[I]   int: ?GetWriterFormatCount@FbxIOPluginRegistry@fbxsdk@@QBEHXZ/1416906, iat: 696afd40
+[I]   int: ?GetWriterFormatDescription@FbxIOPluginRegistry@fbxsdk@@QBEPBDH@Z/1416942, iat: 696afd80
+[I]   int: ?GetWriterFormatExtension@FbxIOPluginRegistry@fbxsdk@@QBEPBDH@Z/1416986, iat: 696afde0
+[I]   int: ??0FbxAMatrix@fbxsdk@@QAE@XZ/141582a, iat: 6968f920
+[I]   int: ??0FbxAMatrix@fbxsdk@@QAE@ABV01@@Z/141584a, iat: 6968fa40
+[I]   int: ?Destroy@FbxObject@fbxsdk@@QAEX_N@Z/14159a6, iat: 6966bd10
+[I]   int: ?GetCurve@FbxProperty@fbxsdk@@QAEPAVFbxAnimCurve@2@PAVFbxAnimLayer@2@PBD_N@Z/1415956, iat: 69637ce0
+[I]   int: ??1FbxColor@fbxsdk@@QAE@XZ/1415938, iat: 69675a20
+[I]   int: ??0FbxColor@fbxsdk@@QAE@NNNN@Z/1415916, iat: 696758a0
+[I]   int: ??DFbxAMatrix@fbxsdk@@QBE?AV01@ABV01@@Z/14158ec, iat: 69691e30
+[I]   int: ??1FbxAMatrix@fbxsdk@@QAE@XZ/1415870, iat: 6968fe30
+[I]   int: ?SetIdentity@FbxAMatrix@fbxsdk@@QAEXXZ/1415890, iat: 69690850
+[I]   int: ?Create@FbxScene@fbxsdk@@SAPAV12@PAVFbxManager@2@PBD@Z/1416088, iat: 69836f40
+[I]   int: ?SetT@FbxAMatrix@fbxsdk@@QAEXABVFbxVector4@2@@Z/14158ba, iat: 69690920
+[I]   int: ??1FbxString@fbxsdk@@QAE@XZ/141566e, iat: 696874a0
+[I]   int: ??0FbxString@fbxsdk@@QAE@ABV01@@Z/141564a, iat: 69687240
+[I]   int: ?FreeMemory@FbxBaseAllocator@fbxsdk@@QAEXPAX@Z/1415618, iat: 69637bf0
+[I]   int: ?AllocateRecords@FbxBaseAllocator@fbxsdk@@QAEPAXI@Z/14155e2, iat: 69637090
+[I]   int: ?Reserve@FbxBaseAllocator@fbxsdk@@QAEXI@Z/14155b6, iat: 6966eaa0
+[I]   int: ??0FbxBaseAllocator@fbxsdk@@QAE@I@Z/1415590, iat: 69635b30
+[I]   int: ?FbxRealloc@fbxsdk@@YAPAXPAXI@Z/141556e, iat: 6967fd70
+[I]   int: ?FbxAllocSize@fbxsdk@@YAIII@Z/141554e, iat: 6967fbf0
+[I]   int: ?SetCustomFrameRate@FbxGlobalSettings@fbxsdk@@QAEXN@Z/1416050, iat: 696a3c30
+[I]   int: ?sDEFAULT_VELOCITY@FbxAnimCurveDef@fbxsdk@@2MB/141688a, iat: 69c1f2dc
+[I] import name: d3d8.dll, first thunk: 1413390
+[I]   int: Direct3DCreate8/14169d6, iat: 69541cbb
+[I] import name: KERNEL32.dll, first thunk: 1412510
+[I]   int: GlobalAddAtomA/1417036, iat: 76eab510
+[I]   int: GlobalFindAtomA/1417048, iat: 76ea61f0
+[I]   int: GlobalGetAtomNameA/141705a, iat: 76ee2060
+[I]   int: CompareStringA/1417070, iat: 76ea7d40
+[I]   int: GetCurrentProcessId/1417082, iat: 76eb2e90
+[I]   int: SetEvent/1417098, iat: 76eb3080
+[I]   int: CreateEventA/14170a4, iat: 76eb2f30
+[I]   int: SetThreadPriority/14170b4, iat: 76eb06c0
+[I]   int: SuspendThread/14170c8, iat: 76ec4e90
+[I]   int: VirtualProtect/14170d8, iat: 76eb04c0
+[I]   int: EnterCriticalSection/14170ea, iat: 7708e910
+[I]   int: LeaveCriticalSection/1417102, iat: 7708de30
+[I]   int: GetFileTime/141711a, iat: 76eb3380
+[I]   int: SetFileTime/1417128, iat: 76eb3570
+[I]   int: ReplaceFileA/1417136, iat: 76ee8b00
+[I]   int: SystemTimeToFileTime/1417146, iat: 76eb1120
+[I]   int: GetUserDefaultLCID/141715e, iat: 76eae760
+[I]   int: FlushFileBuffers/1417174, iat: 76eb32a0
+[I]   int: LockFile/1417188, iat: 76eb3490
+[I]   int: ReadFile/1417194, iat: 76eb34c0
+[I]   int: SetEndOfFile/14171a0, iat: 76eb3510
+[I]   int: SetFilePointer/14171b0, iat: 76eb3550
+[I]   int: UnlockFile/14171c2, iat: 76eb3590
+[I]   int: WriteFile/14171d0, iat: 76eb35b0
+[I]   int: DuplicateHandle/14171dc, iat: 76eb2ef0
+[I]   int: GetCurrentProcess/14171ee, iat: 76eb2e80
+[I]   int: LoadLibraryExA/1417202, iat: 76eb1620
+[I]   int: GetShortPathNameA/1417214, iat: 76ea6b60
+[I]   int: MoveFileA/1417228, iat: 76eaf3e0
+[I]   int: GetVolumeInformationA/1417234, iat: 76eb3430
+[I]   int: GetThreadLocale/141724c, iat: 76ea89d0
+[I]   int: GetStringTypeExA/141725e, iat: 76ea98d0
+[I]   int: FileTimeToLocalFileTime/1417272, iat: 76eb3190
+[I]   int: GetFileAttributesExA/141728c, iat: 76eb3320
+[I]   int: GetFileSizeEx/14172a4, iat: 76eb3370
+[I]   int: LocalFileTimeToFileTime/14172b4, iat: 76eb3480
+[I]   int: SetFileAttributesA/14172ce, iat: 76eb3520
+[I]   int: SystemTimeToTzSpecificLocalTime/14172e4, iat: 76ea9060
+[I]   int: FileTimeToSystemTime/1417306, iat: 76eb3620
+[I]   int: GetCurrentThread/141731e, iat: 76eae7b0
+[I]   int: GetPrivateProfileIntA/1417332, iat: 76eab4b0
+[I]   int: LocalAlloc/141734a, iat: 76eb0460
+[I]   int: GlobalFlags/1417358, iat: 76ea8560
+[I]   int: LocalLock/1417366, iat: 76eb0700
+[I]   int: LocalUnlock/1417372, iat: 76eb0720
+[I]   int: InitializeCriticalSection/1417380, iat: 770ae220
+[I]   int: TlsAlloc/141739c, iat: 76eb1140
+[I]   int: TlsGetValue/14173a8, iat: 76eadf20
+[I]   int: TlsSetValue/14173b6, iat: 76eadfb0
+[I]   int: TlsFree/14173c4, iat: 76eb0f70
+[I]   int: GlobalReAlloc/14173ce, iat: 76eaf1a0
+[I]   int: GlobalHandle/14173de, iat: 76ea7de0
+[I]   int: LocalReAlloc/14173ee, iat: 76ea8b40
+[I]   int: GetAtomNameA/14173fe, iat: 76ee2020
+[I]   int: GetLocaleInfoW/141740e, iat: 76eb06a0
+[I]   int: GetSystemDefaultUILanguage/1417420, iat: 76eb1920
+[I]   int: GetUserDefaultUILanguage/141743e, iat: 76eb1f60
+[I]   int: GetOEMCP/141745a, iat: 76eb2190
+[I]   int: GetCPInfo/1417466, iat: 76eb1530
+[I]   int: GetACP/1417472, iat: 76eb03c0
+[I]   int: FindResourceExW/141747c, iat: 76eafbc0
+[I]   int: SetErrorMode/141748e, iat: 76eb0610
+[I]   int: VerSetConditionMask/141749e, iat: 770b65f0
+[I]   int: VerifyVersionInfoA/14174b4, iat: 76ea4ff0
+[I]   int: GetProfileIntA/14174ca, iat: 76eab490
+[I]   int: SearchPathA/14174dc, iat: 76ea9890
+[I]   int: ResetEvent/14174ea, iat: 76eb3070
+[I]   int: WaitForSingleObjectEx/14174f8, iat: 76eb30e0
+[I]   int: CreateEventW/1417510, iat: 76eb2f60
+[I]   int: UnhandledExceptionFilter/1417520, iat: 76ec4f20
+[I]   int: SetUnhandledExceptionFilter/141753c, iat: 76eb1720
+[I]   int: TerminateProcess/141755a, iat: 76ea9910
+[I]   int: IsProcessorFeaturePresent/141756e, iat: 76eb0b70
+[I]   int: IsDebuggerPresent/141758a, iat: 76eb20d0
+[I]   int: GetStartupInfoW/141759e, iat: 76eb1550
+[I]   int: GetSystemTimeAsFileTime/14175b0, iat: 76eaf390
+[I]   int: InitializeSListHead/14175ca, iat: 770b7de0
+[I]   int: FreeResource/1416fba, iat: 76eb1200
+[I]   int: GetSystemDirectoryW/1416fa4, iat: 76eb10b0
+[I]   int: GetCurrentThreadId/1416f8e, iat: 76eadf10
+[I]   int: lstrcmpW/141702a, iat: 76eb0880
+[I]   int: MulDiv/1416f74, iat: 76eb2d30
+[I]   int: LocalFree/1416f68, iat: 76eaf530
+[I]   int: GlobalSize/1416f5a, iat: 76eb04e0
+[I]   int: SetLastError/1416f4a, iat: 76eadfa0
+[I]   int: UnmapViewOfFile/1416f38, iat: 76eb05d0
+[I]   int: GetVersionExA/1416f28, iat: 76eb1760
+[I]   int: CreateFileW/1416f1a, iat: 76eb3140
+[I]   int: CreateFileMappingA/1416f04, iat: 76ea16b0
+[I]   int: MapViewOfFile/1416ef4, iat: 76eaf590
+[I]   int: GetFileSize/1416ee6, iat: 76eb3360
+[I]   int: GetDiskFreeSpaceA/1416ed2, iat: 76eb32b0
+[I]   int: GetFullPathNameA/1416ebe, iat: 76eb33c0
+[I]   int: GetFileAttributesA/1416ea8, iat: 76eb3310
+[I]   int: GlobalFree/1416e9a, iat: 76eaffc0
+[I]   int: GlobalLock/1416e8c, iat: 76eae180
+[I]   int: GlobalUnlock/1416e7c, iat: 76eae0d0
+[I]   int: GlobalAlloc/1416e6e, iat: 76eb05f0
+[I]   int: FormatMessageA/1416e5c, iat: 76ea8c30
+[I]   int: DeleteCriticalSection/1416e44, iat: 7709f980
+[I]   int: InitializeCriticalSectionAndSpinCount/1416e1c, iat: 76eb2fe0
+[I]   int: GetProcessHeap/1416e0a, iat: 76eaf380
+[I]   int: HeapSize/1416dfe, iat: 77086ad0
+[I]   int: HeapFree/1416df2, iat: 76eadf60
+[I]   int: HeapReAlloc/1416de4, iat: 770993c0
+[I]   int: HeapAlloc/1416dd8, iat: 770953c0
+[I]   int: HeapDestroy/1416dca, iat: 76eb0bf0
+[I]   int: GetLastError/1416dba, iat: 76eae010
+[I]   int: RaiseException/1416da8, iat: 76eb05b0
+[I]   int: DecodePointer/1416d98, iat: 770b5560
+[I]   int: lstrcpynA/1416d8c, iat: 76ea9300
+[I]   int: FindResourceA/1416d7c, iat: 76ea2eb0
+[I]   int: GetTempFileNameA/1416d68, iat: 76eb33f0
+[I]   int: CopyFileA/1416d5c, iat: 76ea8b60
+[I]   int: GetPrivateProfileSectionNamesA/1416d3a, iat: 76ee7340
+[I]   int: WritePrivateProfileStringA/1416d1c, iat: 76ea8da0
+[I]   int: GetPrivateProfileStringA/1416d00, iat: 76eab530
+[I]   int: GlobalDeleteAtom/1417016, iat: 76eb0e90
+[I]   int: CreateFileA/1416cf2, iat: 76eb3130
+[!]   |    hooking iat p: 014C26E8 / addr: 76eb3130  -- hook addr: 69541683
+[!]   |    API function hooked!
+[I]   int: SetConsoleTitleA/1416cde, iat: 76eb3b70
+[I]   int: SetConsoleTextAttribute/1416cc4, iat: 76eb3b60
+[I]   int: FlushConsoleInputBuffer/1416caa, iat: 76eb39e0
+[I]   int: WriteConsoleA/1416c9a, iat: 76eb3980
+[I]   int: SetConsoleMode/1416c88, iat: 76eb3970
+[I]   int: FreeConsole/1416c7a, iat: 76eb38a0
+[I]   int: AllocConsole/1416c6a, iat: 76eb3860
+[I]   int: GetStdHandle/1416c5a, iat: 76eb1700
+[I]   int: lstrcatA/1416c4e, iat: 76ea8a60
+[I]   int: WinExec/1416c44, iat: 76eecd30
+[I]   int: DeleteFileA/1416c36, iat: 76eb3160
+[I]   int: GetModuleFileNameA/1416c20, iat: 76eb0e30
+[I]   int: QueryPerformanceCounter/1416c06, iat: 76eadf40
+[I]   int: OutputDebugStringA/1416bf0, iat: 76ea9350
+[I]   int: GetProcAddress/1416bde, iat: 76eaf550
+[I]   int: GetModuleHandleA/1416bca, iat: 76eb0a60
+[I]   int: GetCurrentDirectoryA/1416bb2, iat: 76ec3480
+[I]   int: lstrcpyA/1416ba6, iat: 76ea83c0
+[I]   int: LoadLibraryA/1416b96, iat: 76eb0bd0
+[I]   int: FreeLibrary/1416b88, iat: 76eb0ae0
+[I]   int: GetComputerNameA/1416b74, iat: 76ea9080
+[I]   int: CreateProcessA/1416b62, iat: 76ec2d90
+[I]   int: ResumeThread/1416b52, iat: 76eb18f0
+[I]   int: WaitForSingleObject/1416b3c, iat: 76eb30d0
+[I]   int: CloseHandle/1416b2e, iat: 76eb2ee0
+[I]   int: lstrcmpiA/1416b22, iat: 76eae800
+[I]   int: GetTickCount/1416b12, iat: 76eb23a0
+[I]   int: lstrlenA/1416b06, iat: 76eb0440
+[I]   int: GetWindowsDirectoryA/1416aee, iat: 76eb1d50
+[I]   int: GetLocalTime/1416ade, iat: 76eb0b60
+[I]   int: GetTempPathA/1416ace, iat: 76eb3410
+[I]   int: CreateDirectoryA/1416aba, iat: 76eb3100
+[I]   int: SetCurrentDirectoryA/1416aa2, iat: 76ec4b00
+[I]   int: FindNextFileA/1416a92, iat: 76eb3250
+[I]   int: FindFirstFileA/1416a80, iat: 76eb31e0
+[I]   int: FindClose/1416a74, iat: 76eb31a0
+[I]   int: MultiByteToWideChar/1416a5e, iat: 76eadf80
+[I]   int: Sleep/1416a56, iat: 76eb0f00
+[I]   int: lstrcmpA/1416a4a, iat: 76eaf4e0
+[I]   int: WideCharToMultiByte/1416a34, iat: 76eadff0
+[I]   int: FindResourceW/1416a24, iat: 76ea1f60
+[I]   int: SizeofResource/1416a12, iat: 76eb0480
+[I]   int: LockResource/1416a02, iat: 76eaf340
+[I]   int: LoadResource/14169f2, iat: 76eae840
+[I]   int: LoadLibraryW/1417006, iat: 76eb16c0
+[I]   int: LoadLibraryExW/1416ff4, iat: 76eaf3a0
+[I]   int: EncodePointer/1416f7e, iat: 770b5f20
+[I]   int: GetModuleFileNameW/1416fca, iat: 76eb0900
+[I]   int: OutputDebugStringW/141a546, iat: 76ec4130
+[I]   int: GetStringTypeW/141a55c, iat: 76eb0c40
+[I]   int: FormatMessageW/141a56e, iat: 76eb1bc0
+[I]   int: SwitchToThread/141a580, iat: 76ea7cc0
+[I]   int: CompareStringW/141a592, iat: 76eadfd0
+[I]   int: LCMapStringW/141a5a4, iat: 76eb0e70
+[I]   int: RtlUnwind/141a5b4, iat: 76eb05c0
+[I]   int: InterlockedPushEntrySList/141a5c0, iat: 7709a0a0
+[I]   int: InterlockedFlushSList/141a5dc, iat: 7709d5b0
+[I]   int: ExitProcess/141a5f4, iat: 76eb4100
+[I]   int: GetModuleHandleExW/141a602, iat: 76eb1640
+[I]   int: GetFileType/141a618, iat: 76eb3390
+[I]   int: WriteConsoleW/141a626, iat: 76eb3990
+[I]   int: GetSystemInfo/141a636, iat: 76eb1910
+[I]   int: VirtualAlloc/141a646, iat: 76eaf3c0
+[I]   int: VirtualQuery/141a656, iat: 76eaf570
+[I]   int: SetStdHandle/141a666, iat: 76ec4cc0
+[I]   int: CreateThread/141a676, iat: 76eb0f10
+[I]   int: ExitThread/141a686, iat: 770ab1e0
+[I]   int: FreeLibraryAndExitThread/141a694, iat: 76ea8ac0
+[I]   int: GetFullPathNameW/141a6b0, iat: 76eb33d0
+[I]   int: GetCommandLineA/141a6c4, iat: 76eb1ee0
+[I]   int: GetCommandLineW/141a6d6, iat: 76eb1d70
+[I]   int: HeapQueryInformation/141a6e8, iat: 76ec3a80
+[I]   int: QueryPerformanceFrequency/141a700, iat: 76eb16e0
+[I]   int: GetDateFormatW/141a71c, iat: 76ea8bd0
+[I]   int: GetTimeFormatW/141a72e, iat: 76ea7140
+[I]   int: IsValidLocale/141a740, iat: 76eb1880
+[I]   int: EnumSystemLocalesW/141a750, iat: 76ea9680
+[I]   int: GetTimeZoneInformation/141a766, iat: 76eb1cc0
+[I]   int: GetFileAttributesExW/141a780, iat: 76eb3330
+[I]   int: GetConsoleMode/141a798, iat: 76eb38c0
+[I]   int: ReadConsoleW/141a7aa, iat: 76eb3940
+[I]   int: GetConsoleCP/141a7ba, iat: 76eb38b0
+[I]   int: SetFilePointerEx/141a7ca, iat: 76eb3560
+[I]   int: SetConsoleCtrlHandler/141a7de, iat: 76eb3960
+[I]   int: GetExitCodeProcess/141a7f6, iat: 76ea94c0
+[I]   int: CreateProcessW/141a80c, iat: 76ea88e0
+[I]   int: GetDriveTypeW/141a81e, iat: 76eb3300
+[I]   int: FindFirstFileExW/141a82e, iat: 76eb3200
+[I]   int: FindNextFileW/141a842, iat: 76eb3270
+[I]   int: IsValidCodePage/141a852, iat: 76eb16a0
+[I]   int: GetEnvironmentStringsW/141a864, iat: 76eb1ef0
+[I]   int: FreeEnvironmentStringsW/141a87e, iat: 76eb1ba0
+[I]   int: SetEnvironmentVariableW/141a898, iat: 76ea8620
+[I]   int: SetCurrentDirectoryW/141a8b2, iat: 76ea8fb0
+[I]   int: GetModuleHandleW/1416fe0, iat: 76eb0e50
+[I]   int: GetCurrentDirectoryW/141a8ca, iat: 76ea8ae0
+[I] import name: USER32.dll, first thunk: 1412c40
+[I]   int: CreateAcceleratorTableA/14185f8, iat: 75f3c540
+[I]   int: DestroyAcceleratorTable/1418612, iat: 75f0ead0
+[I]   int: GetDoubleClickTime/141862c, iat: 75f1f920
+[I]   int: ModifyMenuA/1418642, iat: 75f72a20
+[I]   int: CharUpperBuffA/1418650, iat: 75f69730
+[I]   int: GetUpdateRect/1418662, iat: 75f04fe0
+[I]   int: EnumChildWindows/1418672, iat: 75f119e0
+[I]   int: SubtractRect/1418686, iat: 75f74a50
+[I]   int: MonitorFromRect/1418696, iat: 75f07090
+[I]   int: GetWindowRgn/14186a8, iat: 75f08570
+[I]   int: DefMDIChildProcA/141823a, iat: 75efe530
+[I]   int: DefFrameProcA/141822a, iat: 75f007e0
+[I]   int: DrawMenuBar/141821c, iat: 75f08b50
+[I]   int: ReuseDDElParam/141820a, iat: 75f440f0
+[I]   int: UnpackDDElParam/14181f8, iat: 75f44190
+[I]   int: GetMenuBarInfo/14181e6, iat: 75f1fa30
+[I]   int: InsertMenuItemA/14181d4, iat: 75f729e0
+[I]   int: DestroyMenu/14181c6, iat: 75f1f5f0
+[I]   int: CreatePopupMenu/14181b4, iat: 75f0a0c0
+[I]   int: LoadMenuA/14181a8, iat: 75f09bd0
+[I]   int: TranslateAcceleratorA/1418190, iat: 75f01890
+[I]   int: LoadAcceleratorsA/141817c, iat: 75f09050
+[I]   int: MapDialogRect/141816c, iat: 75f076c0
+[I]   int: MapVirtualKeyA/141815a, iat: 75f08a50
+[I]   int: GetKeyNameTextA/1418148, iat: 75f688d0
+[I]   int: GetWindowThreadProcessId/141812c, iat: 75f18990
+[I]   int: GetWindowDC/141811e, iat: 75f1fc90
+[I]   int: GetActiveWindow/141810c, iat: 75f05fc0
+[I]   int: GetNextDlgTabItem/14180f8, iat: 75f0a3c0
+[I]   int: EndDialog/14180ec, iat: 75f08940
+[I]   int: CreateDialogIndirectParamA/14180ce, iat: 75f0a0f0
+[I]   int: IsDialogMessageA/14180ba, iat: 75f09180
+[I]   int: ScrollWindowEx/14180a8, iat: 75f05c90
+[I]   int: IsWindowEnabled/1418096, iat: 75f12c10
+[I]   int: SendDlgItemMessageA/1418080, iat: 75f02150
+[I]   int: IsDlgButtonChecked/141806a, iat: 75f09950
+[I]   int: CheckRadioButton/1418056, iat: 75f44a30
+[I]   int: CheckDlgButton/1418044, iat: 75f09d50
+[I]   int: GetDlgItemTextA/1418032, iat: 75f72720
+[I]   int: SetDlgItemTextA/1418020, iat: 75f04f00
+[I]   int: GetDlgItemInt/1418010, iat: 75f08ee0
+[I]   int: SetDlgItemInt/1418000, iat: 75f09760
+[I]   int: MoveWindow/1417ff2, iat: 75f1ffc0
+[I]   int: ShowWindow/1417fe4, iat: 75f20760
+[I]   int: GetMonitorInfoA/1417fd2, iat: 75f024c0
+[I]   int: MonitorFromWindow/1417fbe, iat: 75f17450
+[I]   int: WinHelpA/1417fb2, iat: 75f09400
+[I]   int: GetScrollInfo/1417fa2, iat: 75f033d0
+[I]   int: SetScrollInfo/1417f92, iat: 75efd120
+[I]   int: LoadIconA/1417f86, iat: 75f07b50
+[I]   int: CallNextHookEx/1417f74, iat: 75f194f0
+[I]   int: UnhookWindowsHookEx/1417f5e, iat: 75f1e7c0
+[I]   int: SetWindowsHookExA/1417f4a, iat: 75f08c10
+[I]   int: GetTopWindow/1417f3a, iat: 75efdd20
+[I]   int: GetClassNameA/1417f2a, iat: 75f01f80
+[I]   int: AdjustWindowRectEx/1417f14, iat: 75f0bb50
+[I]   int: RemovePropA/1417f06, iat: 75f07500
+[I]   int: GetPropA/1417efa, iat: 75f02ff0
+[I]   int: SetPropA/1417eee, iat: 75f063c0
+[I]   int: ShowScrollBar/1417ede, iat: 75f20740
+[I]   int: ScrollWindow/1417ece, iat: 75f08390
+[I]   int: ValidateRect/1417ebe, iat: 75f208a0
+[I]   int: EndPaint/1417eb2, iat: 75f1f7c0
+[I]   int: BeginPaint/1417ea4, iat: 75f1f3c0
+[I]   int: GetForegroundWindow/1417e8e, iat: 75f1f940
+[I]   int: SetActiveWindow/1417e7c, iat: 75f203a0
+[I]   int: TrackPopupMenuEx/1417e68, iat: 75f207f0
+[I]   int: TrackPopupMenu/1417e56, iat: 75f5ceb0
+[I]   int: SetMenu/1417e4c, iat: 75f09e50
+[I]   int: GetMenu/1417e42, iat: 75f12790
+[I]   int: SetWindowPlacement/1417e2c, iat: 75f206f0
+[I]   int: GetWindowPlacement/1417e16, iat: 75f1fce0
+[I]   int: DestroyWindow/1417e06, iat: 75f1f610
+[I]   int: IsMenu/1417dfc, iat: 75efffa0
+[I]   int: CreateWindowExA/1417dea, iat: 75f06430
+[I]   int: GetClassInfoExA/1417dd8, iat: 75f039c0
+[I]   int: GetClassInfoA/1417dc8, iat: 75f03970
+[I]   int: RegisterClassA/1417db6, iat: 75f00000
+[I]   int: CallWindowProcA/1417da4, iat: 75f02040
+[I]   int: GetMessageTime/1417d92, iat: 75f1e5b0
+[I]   int: RegisterWindowMessageA/1417d78, iat: 75f1c760
+[I]   int: SetMenuItemInfoA/1417d64, iat: 75f72a70
+[I]   int: GetMenuCheckMarkDimensions/1417d46, iat: 75f5cd70
+[I]   int: SetMenuItemBitmaps/1417d30, iat: 75f5ce40
+[I]   int: GetWindowTextLengthA/1417d18, iat: 75f07a00
+[I]   int: GetWindowTextA/1417d06, iat: 75f03850
+[I]   int: SetFocus/1417cfa, iat: 75f204f0
+[I]   int: RemoveMenu/1417cec, iat: 75f20300
+[I]   int: AppendMenuA/1417cde, iat: 75f72670
+[I]   int: GetMenuState/1417cce, iat: 75eff2f0
+[I]   int: GetMenuStringA/1417cbc, iat: 75f72800
+[I]   int: EndDeferWindowPos/1417ca8, iat: 75f065a0
+[I]   int: DeferWindowPos/1417c96, iat: 75f051f0
+[I]   int: BeginDeferWindowPos/1417c80, iat: 75f05e20
+[I]   int: GetClassLongA/1417c70, iat: 75f050a0
+[I]   int: GetMenuItemCount/1417c5c, iat: 75effd10
+[I]   int: GetMenuItemID/1417c4c, iat: 75effd60
+[I]   int: InvertRect/1417c3e, iat: 75f75620
+[I]   int: EmptyClipboard/1417c2c, iat: 75f0a0d0
+[I]   int: SetClipboardData/1417c18, iat: 75f06140
+[I]   int: CloseClipboard/1417c06, iat: 75f09610
+[I]   int: ToAsciiEx/14185ec, iat: 75f6f350
+[I]   int: GetCursor/1417bea, iat: 75f1f8c0
+[I]   int: IsZoomed/1417bde, iat: 75f16480
+[I]   int: GetDlgCtrlID/1417bce, iat: 75f171c0
+[I]   int: SetWindowPos/1417bbe, iat: 75f20700
+[I]   int: EnableMenuItem/1417b9a, iat: 75efe4a0
+[I]   int: LoadImageA/1417b8c, iat: 75f08a80
+[I]   int: DrawStateA/1417b7e, iat: 75f5d4a0
+[I]   int: TranslateMessage/1417b6a, iat: 75f18500
+[I]   int: CheckMenuItem/1417b5a, iat: 75eff080
+[I]   int: BringWindowToTop/1417b46, iat: 75f07870
+[I]   int: DrawEdge/1417b3a, iat: 75f003c0
+[I]   int: DrawCaption/1417b2c, iat: 75f60d70
+[I]   int: DrawFrameControl/1417b18, iat: 75f06a00
+[I]   int: EnumWindows/1417b0a, iat: 75f07820
+[I]   int: SetMenuDefaultItem/1417af4, iat: 75f205c0
+[I]   int: wsprintfA/1417ae8, iat: 75f066f0
+[I]   int: MessageBoxA/1417ada, iat: 75f5ee90
+[I]   int: CopyIcon/1417ace, iat: 75f05410
+[I]   int: KillTimer/1417ac2, iat: 75f1ff10
+[I]   int: SetTimer/1417ab6, iat: 75f1cd00
+[I]   int: SetParent/1417aaa, iat: 75f1e6e0
+[I]   int: InsertMenuA/1417a9c, iat: 75f72990
+[I]   int: GetSystemMenu/1417a8c, iat: 75f1fbf0
+[I]   int: RedrawWindow/1417a7c, iat: 75f20220
+[I]   int: EqualRect/1417a70, iat: 75f1cb50
+[I]   int: DrawTextW/1417a64, iat: 75f0a560
+[I]   int: GetLastActivePopup/1417a4e, iat: 75f05c00
+[I]   int: FindWindowA/1417a40, iat: 75f05e70
+[I]   int: SetForegroundWindow/1417a2a, iat: 75f1e800
+[I]   int: IsIconic/1417a1e, iat: 75f16620
+[I]   int: UnregisterClassA/1417a0a, iat: 75f070e0
+[I]   int: DefWindowProcA/14179f8, iat: 770d6640
+[I]   int: GetWindow/14179ec, iat: 75f1a000
+[I]   int: WindowFromPoint/14179da, iat: 75f20900
+[I]   int: GetCapture/14179cc, iat: 75f1d0f0
+[I]   int: DispatchMessageA/14179b8, iat: 75f05d70
+[I]   int: GetMessageA/14179aa, iat: 75f01a40
+[I]   int: ShowCursor/141799c, iat: 75f20730
+[I]   int: UnionRect/1417990, iat: 75f01eb0
+[I]   int: GetMessagePos/1417980, iat: 75f1e580
+[I]   int: MessageBeep/1417972, iat: 75f6ecd0
+[I]   int: GetSysColorBrush/141795e, iat: 75f1da50
+[I]   int: ClientToScreen/141794c, iat: 75f022e0
+[I]   int: LockWindowUpdate/1417938, iat: 75f1ff40
+[I]   int: GetDCEx/141792e, iat: 75f1f8e0
+[I]   int: GetDesktopWindow/141791a, iat: 75f18010
+[I]   int: OffsetRect/141790c, iat: 75f188f0
+[I]   int: FillRect/1417900, iat: 75f011b0
+[I]   int: DrawFocusRect/14178f0, iat: 75f05220
+[I]   int: ReleaseDC/14178e4, iat: 75f1c720
+[I]   int: GetDC/14178dc, iat: 75f1cd80
+[I]   int: DrawIcon/14178d0, iat: 75f03560
+[I]   int: IntersectRect/14178c0, iat: 75f0e6d0
+[I]   int: MapWindowPoints/14178ae, iat: 75f12b50
+[I]   int: TabbedTextOutA/141789c, iat: 75f421c0
+[I]   int: GrayStringA/141788e, iat: 75f6e960
+[I]   int: DrawTextExA/1417880, iat: 75f006f0
+[I]   int: DrawTextA/1417874, iat: 75f00690
+[I]   int: GetDlgItem/1417866, iat: 75f172e0
+[I]   int: SetRect/141785c, iat: 75f1cb90
+[I]   int: SetWindowLongA/141784a, iat: 75f05fd0
+[I]   int: GetWindowLongA/1417838, iat: 75f12fb0
+[I]   int: UpdateWindow/1417828, iat: 75f12820
+[I]   int: IsWindow/141781c, iat: 75f18330
+[I]   int: PeekMessageA/141780c, iat: 75efde80
+[I]   int: GetSystemMetrics/14177f8, iat: 75f12c60
+[I]   int: LoadBitmapW/14177ea, iat: 75f09250
+[I]   int: GetSubMenu/14177dc, iat: 75effc40
+[I]   int: LoadMenuW/14177d0, iat: 75f0e740
+[I]   int: LoadCursorA/14177c2, iat: 75f1e450
+[I]   int: PtInRect/14177b6, iat: 75f022a0
+[I]   int: SetRectEmpty/14177a6, iat: 75f1cf60
+[I]   int: SetCursor/141779a, iat: 75f1eff0
+[I]   int: ReleaseCapture/1417788, iat: 75f07020
+[I]   int: SetCapture/141777a, iat: 75f203f0
+[I]   int: IsRectEmpty/141776c, iat: 75f1c6f0
+[I]   int: GetFocus/1417760, iat: 75f1ccf0
+[I]   int: IsWindowVisible/141774e, iat: 75f13780
+[I]   int: IsChild/1417744, iat: 75f16160
+[I]   int: PostMessageA/1417734, iat: 75f018f0
+[I]   int: DrawIconEx/1417726, iat: 75f03590
+[I]   int: DestroyIcon/1417718, iat: 75f1e0a0
+[I]   int: CopyRect/141770c, iat: 75f1a4f0
+[I]   int: GetSysColor/14176fe, iat: 75f0b280
+[I]   int: ScreenToClient/14176ec, iat: 75f16f50
+[I]   int: GetAsyncKeyState/14176d8, iat: 75f03460
+[I]   int: GetKeyState/14176ca, iat: 75f1a420
+[I]   int: LoadIconW/14176be, iat: 75f1e610
+[I]   int: GetParent/14176b2, iat: 75f15650
+[I]   int: GetCursorPos/14176a2, iat: 75f03650
+[I]   int: SetCursorPos/1417692, iat: 75f20470
+[I]   int: GetClientRect/1417682, iat: 75f13000
+[I]   int: GetScrollRange/1417670, iat: 75f07210
+[I]   int: GetKeyboardState/14185d8, iat: 75f1f9f0
+[I]   int: MapVirtualKeyExA/14185c4, iat: 75f68990
+[I]   int: IsCharLowerA/14185b4, iat: 75f69870
+[I]   int: GetKeyboardLayout/14185a0, iat: 75f1d500
+[I]   int: GetComboBoxInfo/141858e, iat: 75f1f8a0
+[I]   int: UpdateLayeredWindow/1418578, iat: 75f07460
+[I]   int: FrameRect/141856c, iat: 75f05270
+[I]   int: SetClassLongA/141855c, iat: 75f09b50
+[I]   int: EnumDisplayMonitors/1418546, iat: 75f1f7d0
+[I]   int: SetLayeredWindowAttributes/1418528, iat: 75f20580
+[I]   int: HideCaret/141851c, iat: 75f076a0
+[I]   int: EnableScrollBar/141850a, iat: 75f63bc0
+[I]   int: GetIconInfo/14184fc, iat: 75f1d9a0
+[I]   int: GetNextDlgGroupItem/14184e6, iat: 75f44d80
+[I]   int: GetMenuDefaultItem/14184d0, iat: 75f5cdd0
+[I]   int: GetTabbedTextExtentW/14184b8, iat: 75f42150
+[I]   int: SetScrollRange/141765e, iat: 75efb110
+[I]   int: GetScrollPos/141764e, iat: 75f05f30
+[I]   int: SetScrollPos/141763e, iat: 75efab90
+[I]   int: InflateRect/1417630, iat: 75f0bd20
+[I]   int: GetWindowRect/1417620, iat: 75f12d80
+[I]   int: InvalidateRect/141760e, iat: 75f1fe50
+[I]   int: SendMessageA/14175fe, iat: 75f02190
+[I]   int: EnableWindow/14175ee, iat: 75f1dee0
+[I]   int: SetWindowContextHelpId/141849e, iat: 75f0a1d0
+[I]   int: InvalidateRgn/141848e, iat: 75f1fe60
+[I]   int: CharNextA/1418482, iat: 75f01810
+[I]   int: CreateMenu/1418474, iat: 75f09d90
+[I]   int: PostThreadMessageA/141845e, iat: 75f01830
+[I]   int: CopyAcceleratorTableA/1418446, iat: 75f3c4e0
+[I]   int: SendNotifyMessageA/1418430, iat: 75f68b40
+[I]   int: LoadImageW/1418422, iat: 75f0f610
+[I]   int: TrackMouseEvent/1418410, iat: 75f207e0
+[I]   int: GetDialogBaseUnits/14183fa, iat: 75f09bb0
+[I]   int: CopyImage/14183ee, iat: 75f05cd0
+[I]   int: GetTabbedTextExtentA/14183d6, iat: 75f420b0
+[I]   int: MonitorFromPoint/14183c2, iat: 75f0e920
+[I]   int: RealChildWindowFromPoint/14183a6, iat: 75f20210
+[I]   int: SetWindowRgn/1418396, iat: 75f03760
+[I]   int: RegisterClipboardFormatA/141837a, iat: 75f1c760
+[I]   int: LoadAcceleratorsW/1418366, iat: 75f0efc0
+[I]   int: ShowOwnedPopups/1418354, iat: 75f0a1b0
+[I]   int: DeleteMenu/1418346, iat: 75f1f5a0
+[I]   int: PostQuitMessage/1418334, iat: 75f1e990
+[I]   int: CharUpperA/1418326, iat: 75f0a1f0
+[I]   int: NotifyWinEvent/1418314, iat: 75f1ca80
+[I]   int: WaitMessage/1418306, iat: 75f208d0
+[I]   int: IsClipboardFormatAvailable/14182e8, iat: 75f06b90
+[I]   int: CountClipboardFormats/14182d0, iat: 75f0a170
+[I]   int: WindowFromDC/14182c0, iat: 75f208e0
+[I]   int: InSendMessage/14182b0, iat: 75f3b980
+[I]   int: SystemParametersInfoA/1418298, iat: 75f05d90
+[I]   int: GetMenuItemInfoA/1418284, iat: 75f72760
+[I]   int: DestroyCursor/1418274, iat: 75f1e0a0
+[I]   int: LoadCursorW/1418266, iat: 75f10c10
+[I]   int: OpenClipboard/1417bf6, iat: 75f075b0
+[I]   int: TranslateMDISysAccel/141824e, iat: 75f5c880
+[I]   int: SetWindowTextA/1417bac, iat: 75f04f30
+[I] import name: GDI32.dll, first thunk: 14121d4
+[I]   int: SetPolyFillMode/1418c84, iat: 766f45b0
+[I]   int: SetROP2/1418c96, iat: 766f4430
+[I]   int: SetStretchBltMode/1418ca0, iat: 766f7250
+[I]   int: SetTextCharacterExtra/1418cb4, iat: 766f8850
+[I]   int: CreateDIBitmap/1418a46, iat: 766f72d0
+[I]   int: SetTextAlign/1418ccc, iat: 766f3c70
+[I]   int: SetTextJustification/1418cdc, iat: 766fb660
+[I]   int: PlayMetaFileRecord/1418cf4, iat: 766fb260
+[I]   int: EnumMetaFile/1418d0a, iat: 766f4aa0
+[I]   int: SetWorldTransform/1418d1a, iat: 766f3fb0
+[I]   int: ModifyWorldTransform/1418d2e, iat: 766fb1c0
+[I]   int: SetColorAdjustment/1418d46, iat: 766fb500
+[I]   int: StartDocA/1418d5c, iat: 766fd900
+[I]   int: DeleteDC/1418842, iat: 766f67e0
+[I]   int: SetLayout/1418c6c, iat: 766f83e0
+[I]   int: RestoreDC/1418bf0, iat: 766f6f50
+[I]   int: PlayMetaFile/1418be0, iat: 766f4fa0
+[I]   int: OffsetClipRgn/1418bd0, iat: 766fb200
+[I]   int: LineTo/1418bc6, iat: 766f42a0
+[I]   int: IntersectClipRect/1418bb2, iat: 766f6e20
+[I]   int: GetWindowExtEx/1418ba0, iat: 766f82a0
+[I]   int: ArcTo/1418d68, iat: 766f90b0
+[I]   int: PolyDraw/1418d70, iat: 766fd7a0
+[I]   int: SelectClipPath/1418d7c, iat: 766f47d0
+[I]   int: SetArcDirection/1418d8e, iat: 766fb460
+[I]   int: DeleteObject/141884e, iat: 766f57d0
+[I]   int: GetCharABCWidthsW/141885e, iat: 766f86a0
+[I]   int: GetTextColor/1418872, iat: 766f41f0
+[I]   int: GetTextExtentPoint32W/1418882, iat: 766f6c40
+[I]   int: CreateDIBSection/141889a, iat: 766f5dd0
+[I]   int: GetViewportExtEx/1418b8c, iat: 766fb100
+[I]   int: GetObjectType/1418b7c, iat: 766f3b00
+[I]   int: GetCurrentPositionEx/1418b64, iat: 766fd440
+[I]   int: GetClipRgn/1418b56, iat: 766f7040
+[I]   int: GetClipBox/1418b48, iat: 766f4260
+[I]   int: ExcludeClipRect/1418b36, iat: 766f8ec0
+[I]   int: CreatePatternBrush/1418b20, iat: 766f7590
+[I]   int: CreateDIBPatternBrushPt/1418b06, iat: 766f8150
+[I]   int: CopyMetaFileA/1418af6, iat: 766f9210
+[I]   int: SetBkMode/1418aea, iat: 766f6f10
+[I]   int: SetBkColor/1418adc, iat: 766f6e50
+[I]   int: SetTextColor/1418acc, iat: 766f6de0
+[I]   int: SetPixel/1418ac0, iat: 766f5250
+[I]   int: SetBitmapBits/1418ab0, iat: 766f4100
+[I]   int: TextOutW/14188ae, iat: 766f8870
+[I]   int: CreateFontIndirectA/14188ba, iat: 766f4c10
+[I]   int: CreatePen/14188d0, iat: 766f44f0
+[I]   int: CreateSolidBrush/14188dc, iat: 766f7390
+[I]   int: EnumFontFamiliesA/1418a9c, iat: 766fd380
+[I]   int: EnumFontFamiliesExA/1418a86, iat: 766fd3c0
+[I]   int: GetBkMode/1418836, iat: 766f8220
+[I]   int: GetPixel/141882a, iat: 766f4c40
+[I]   int: SelectObject/141881a, iat: 766f6bf0
+[I]   int: GetObjectA/141880c, iat: 766f3e30
+[I]   int: StretchBlt/14187fe, iat: 766f3da0
+[I]   int: DPtoLP/14188f0, iat: 766f43f0
+[I]   int: CreateHatchBrush/14188fa, iat: 766f9380
+[I]   int: CreateRectRgnIndirect/141890e, iat: 766f6280
+[I]   int: SetBrushOrgEx/1418926, iat: 766f8360
+[I]   int: UnrealizeObject/1418936, iat: 766f4770
+[I]   int: CombineRgn/1418948, iat: 766f3320
+[I]   int: FillRgn/1418956, iat: 766f5320
+[I]   int: GetBkColor/1418960, iat: 766f3e70
+[I]   int: RoundRect/141896e, iat: 766fd880
+[I]   int: PtInRegion/141897a, iat: 766f8fb0
+[I]   int: CreatePolygonRgn/1418988, iat: 766f4930
+[I]   int: ExtCreatePen/1418da0, iat: 766f9ed0
+[I]   int: SetMapMode/1418c5e, iat: 766f3ee0
+[I]   int: PolyBezierTo/1418dbc, iat: 766f4ae0
+[I]   int: PolylineTo/1418dcc, iat: 766f4f60
+[I]   int: SetViewportExtEx/1418dda, iat: 766f48b0
+[I]   int: SetViewportOrgEx/1418dee, iat: 766f3ea0
+[I]   int: SetWindowExtEx/1418e02, iat: 766f4870
+[I]   int: SetWindowOrgEx/1418e14, iat: 766f3d20
+[I]   int: OffsetViewportOrgEx/1418e26, iat: 766f8300
+[I]   int: OffsetWindowOrgEx/1418e3c, iat: 766f8320
+[I]   int: ScaleViewportExtEx/1418e50, iat: 766fb3c0
+[I]   int: ScaleWindowExtEx/1418e66, iat: 766fb3e0
+[I]   int: GetMapMode/1418e7a, iat: 766f8280
+[I]   int: SetRectRgn/1418e88, iat: 766f37b0
+[I]   int: CreateFontA/1418e96, iat: 766f51f0
+[I]   int: GetCharWidthA/1418ea4, iat: 766f41b0
+[I]   int: CreateEllipticRgn/1418eb4, iat: 766f9320
+[I]   int: Ellipse/1418ec8, iat: 766fd340
+[I]   int: AbortDoc/1418ed2, iat: 766fd120
+[I]   int: SetAbortProc/1418ede, iat: 766fb440
+[I]   int: GetViewportOrgEx/1418eee, iat: 766f4080
+[I]   int: GetWindowOrgEx/1418f02, iat: 766f82c0
+[I]   int: CloseMetaFile/1418f14, iat: 766f53c0
+[I]   int: CreateMetaFileA/1418f24, iat: 766fd270
+[I]   int: DeleteMetaFile/1418f36, iat: 766f4c80
+[I]   int: GetRgnBox/1418f48, iat: 766f3b50
+[I]   int: GetROP2/1418f54, iat: 766f4710
+[I]   int: GetNearestColor/1418f5e, iat: 766fafa0
+[I]   int: GetPolyFillMode/1418f70, iat: 766fb000
+[I]   int: GetStretchBltMode/1418f82, iat: 766fb040
+[I]   int: GetTextAlign/1418f96, iat: 766f3cb0
+[I]   int: GetTextExtentPointA/1418fa6, iat: 766f4ea0
+[I]   int: GetTextFaceA/1418fbc, iat: 766f4d30
+[I]   int: GetSystemPaletteEntries/1418fcc, iat: 766f75f0
+[I]   int: GetTextCharsetInfo/1418fe6, iat: 766f7da0
+[I]   int: GetDIBits/1418ffc, iat: 766f7000
+[I]   int: SetDIBColorTable/1419008, iat: 766f8380
+[I]   int: Polyline/141901c, iat: 766f4cf0
+[I]   int: CreateRoundRectRgn/1419028, iat: 766f47a0
+[I]   int: OffsetRgn/141903e, iat: 766f5500
+[I]   int: FrameRgn/141904a, iat: 766fd400
+[I]   int: GetBoundsRect/1419056, iat: 766faae0
+[I]   int: ExtFloodFill/1419066, iat: 766f9ef0
+[I]   int: SetPaletteEntries/1419076, iat: 766fd8c0
+[I]   int: SetPixelV/141908a, iat: 766fb600
+[I]   int: CreateHalftonePalette/1418a2e, iat: 766f7660
+[I]   int: RealizePalette/1418a1c, iat: 766f4740
+[I]   int: GetPaletteEntries/1418a08, iat: 766f7550
+[I]   int: GetNearestPaletteIndex/14189ee, iat: 766f4a60
+[I]   int: CreatePalette/14189de, iat: 766f7630
+[I]   int: AnimatePalette/14189cc, iat: 766fd1b0
+[I]   int: EndPage/14189c2, iat: 766f4ba0
+[I]   int: StartPage/14189b6, iat: 766f4b70
+[I]   int: EndDoc/14189ac, iat: 766f51c0
+[I]   int: PatBlt/14187f4, iat: 766f3d60
+[I]   int: GetBitmapBits/14187e4, iat: 766f5350
+[I]   int: CreateBitmap/14187d4, iat: 766f7350
+[I]   int: Polygon/14187ca, iat: 766f4640
+[I]   int: GetTextMetricsA/14187b8, iat: 766f3c30
+[I]   int: ExtTextOutA/14187aa, iat: 766f3f60
+[I]   int: TextOutA/141879e, iat: 766f50c0
+[I]   int: RectVisible/1418790, iat: 766f3f20
+[I]   int: PtVisible/1418784, iat: 766fb300
+[I]   int: GetCurrentObject/1418770, iat: 766f6da0
+[I]   int: Escape/1418766, iat: 766f44b0
+[I]   int: Rectangle/141875a, iat: 766f46a0
+[I]   int: CreateBrushIndirect/1418744, iat: 766f4320
+[I]   int: StretchDIBits/1418734, iat: 766f7080
+[I]   int: GetTextExtentPoint32A/141871c, iat: 766f5180
+[I]   int: GetStockObject/141870a, iat: 766f5ea0
+[I]   int: CreateCompatibleDC/14186f4, iat: 766f6ce0
+[I]   int: GetLayout/1418c78, iat: 766f7f90
+[I]   int: SetGraphicsMode/1418c4c, iat: 766f83c0
+[I]   int: SetMapperFlags/1418c3a, iat: 766fb5e0
+[I]   int: SelectPalette/1418c2a, iat: 766f42e0
+[I]   int: ExtSelectClipRgn/1418c16, iat: 766f6ed0
+[I]   int: SelectClipRgn/1418c06, iat: 766f5e60
+[I]   int: MoveToEx/1418db0, iat: 766f3df0
+[I]   int: SaveDC/1418bfc, iat: 766f6f90
+[I]   int: CreateCompatibleBitmap/14186da, iat: 766f6fc0
+[I]   int: BitBlt/14186d0, iat: 766f6d30
+[I]   int: LPtoDP/1418a7c, iat: 766f3ce0
+[I]   int: CreateRectRgn/1418a6c, iat: 766f62b0
+[I]   int: CreateDCA/14186c4, iat: 766f5040
+[I]   int: GetDeviceCaps/141899c, iat: 766f5f10
+[I]   int: SetDIBitsToDevice/1418a58, iat: 766f83a0
+[I] import name: MSIMG32.dll, first thunk: 1412944
+[I]   int: TransparentBlt/14190be, iat: 74e21530
+[I]   int: GradientFill/14190a0, iat: 74e21460
+[I]   int: AlphaBlend/14190b0, iat: 74e21390
+[I] import name: WINSPOOL.DRV, first thunk: 14132ac
+[I]   int: ClosePrinter/1419102, iat: 73a35070
+[I]   int: DocumentPropertiesA/14190ec, iat: 73a40dd0
+[I]   int: OpenPrinterA/14190dc, iat: 73a42710
+[I]   int: GetJobA/1419112, iat: 73a41d50
+[I] import name: ADVAPI32.dll, first thunk: 1412000
+[I]   int: RegOpenKeyA/141916e, iat: 75d3f9c0
+[I]   int: RegCloseKey/141913a, iat: 75d3e310
+[I]   int: RegOverridePredefKey/1419148, iat: 75d63080
+[I]   int: RegFlushKey/1419160, iat: 75d3fee0
+[I]   int: RegOpenKeyExA/141917c, iat: 75d3e400
+[I]   int: RegQueryValueA/141918c, iat: 75d31bb0
+[I]   int: RegQueryValueExA/141919e, iat: 75d3e240
+[I]   int: RegCreateKeyExA/14191b2, iat: 75d3e840
+[I]   int: RegEnumKeyExA/14191c4, iat: 75d42300
+[I]   int: IsTextUnicode/1419282, iat: 75d3e1f0
+[I]   int: RegDeleteValueA/1419270, iat: 75d3fdb0
+[I]   int: RegOpenKeyExW/1419260, iat: 75d3e1a0
+[I]   int: RegEnumKeyA/1419252, iat: 75d429d0
+[I]   int: RegDeleteKeyA/1419242, iat: 75d3ed40
+[I]   int: GetFileSecurityA/141922e, iat: 75d64c50
+[I]   int: SetFileSecurityA/141921a, iat: 75d65d90
+[I]   int: RegSetValueA/141920a, iat: 75d639c0
+[I]   int: RegSetValueExA/14191f8, iat: 75d3f9a0
+[I]   int: RegQueryInfoKeyA/14191e4, iat: 75d3f3c0
+[I]   int: RegEnumValueA/14191d4, iat: 75d422e0
+[I]   int: GetUserNameA/141912a, iat: 75d42b30
+[I] import name: SHELL32.dll, first thunk: 1412b78
+[I]   int: DragAcceptFiles/14192b0, iat: 7525ce80
+[I]   int: Shell_NotifyIconA/14192c2, iat: 753868f0
+[I]   int: SHGetMalloc/14192d6, iat: 75267ed0
+[I]   int: SHGetPathFromIDListA/14192e4, iat: 75357500
+[I]   int: SHBrowseForFolderA/14192fc, iat: 753aef80
+[I]   int: DragQueryFileA/1419312, iat: 7530bfb0
+[I]   int: DragFinish/1419324, iat: 7530bfa0
+[I]   int: SHGetFileInfoA/1419332, iat: 75266d10
+[I]   int: ShellExecuteA/14192a0, iat: 7532a350
+[I]   int: ExtractIconA/1419344, iat: 75300ed0
+[I]   int: ShellExecuteExA/14193ae, iat: 7532a3c0
+[I]   int: SHAppBarMessage/141939c, iat: 75386380
+[I]   int: SHGetDesktopFolder/1419386, iat: 7525d180
+[I]   int: SHGetSpecialFolderLocation/1419368, iat: 7525cd20
+[I]   int: SHAddToRecentDocs/1419354, iat: 7525d8b0
+[I] import name: COMCTL32.dll, first thunk: 1412114
+[I]   int: ImageList_DragEnter/1419466, iat: 745ad260
+[I]   int: ImageList_GetIcon/14193cc, iat: 7453cd60
+[I]   int: ImageList_AddMasked/14193e0, iat: 7452d240
+[I]   int: ImageList_Draw/14193f6, iat: 7455da60
+[I]   int: ImageList_GetImageInfo/1419408, iat: 745ad500
+[I]   int: ordinal #8/80000008, iat: 745146f0
+[I]   int: ImageList_GetImageCount/1419422, iat: 7452eb70
+[I]   int: ImageList_BeginDrag/141943c, iat: 745ad020
+[I]   int: ImageList_EndDrag/1419452, iat: 745ad420
+[I]   int: ImageList_DragLeave/141947c, iat: 745ad2b0
+[I]   int: ImageList_DragMove/1419492, iat: 745ad300
+[I]   int: ImageList_SetDragCursorImage/14194a8, iat: 745ad830
+[I]   int: ImageList_DragShowNolock/14194c8, iat: 745ad350
+[I]   int: ImageList_SetImageCount/14194e4, iat: 74518cc0
+[I]   int: ImageList_Replace/14194fe, iat: 745ad6b0
+[I] import name: UxTheme.dll, first thunk: 1413128
+[I]   int: GetThemeSysColor/1419606, iat: 74e88b30
+[I]   int: GetWindowTheme/14195f4, iat: 74e890a0
+[I]   int: GetCurrentThemeName/14195de, iat: 74e5b800
+[I]   int: GetThemeColor/14195ce, iat: 74e5cc70
+[I]   int: DrawThemeText/14195be, iat: 74e567f0
+[I]   int: DrawThemeParentBackground/14195a2, iat: 74e5a2e0
+[I]   int: IsThemeBackgroundPartiallyTransparent/141956c, iat: 74e5d9e0
+[I]   int: GetThemePartSize/1419558, iat: 74e5ddc0
+[I]   int: DrawThemeBackground/1419542, iat: 74e57300
+[I]   int: CloseThemeData/1419530, iat: 74e5dc50
+[I]   int: OpenThemeData/1419520, iat: 74e5c9a0
+[I]   int: IsAppThemed/1419594, iat: 74e5c7f0
+[I] import name: ole32.dll, first thunk: 1413650
+[I]   int: OleRegGetUserType/141972a, iat: 763c0a60
+[I]   int: SetConvertStg/141973e, iat: 763a5ce0
+[I]   int: CoUninitialize/141974e, iat: 76c156f0
+[I]   int: CoInitializeEx/1419760, iat: 76c156a0
+[I]   int: PropVariantCopy/1419772, iat: 7636c560
+[I]   int: StgOpenStorageOnILockBytes/1419784, iat: 7637e4c0
+[I]   int: StgIsStorageFile/14197a2, iat: 76358090
+[I]   int: CreateILockBytesOnHGlobal/14197b6, iat: 7637e230
+[I]   int: CreateFileMoniker/14197d2, iat: 76358660
+[I]   int: OleQueryLinkFromData/1419a92, iat: 7635aee0
+[I]   int: CoCreateInstance/1419626, iat: 76c3e3d0
+[I]   int: StgCreateDocfile/141963a, iat: 76358120
+[I]   int: StgOpenStorage/141964e, iat: 76369cb0
+[I]   int: StringFromCLSID/1419660, iat: 76c0fb60
+[I]   int: CoTaskMemAlloc/1419672, iat: 76c29ca0
+[I]   int: CoTaskMemFree/1419684, iat: 76c8bf40
+[I]   int: ReadClassStg/1419694, iat: 7637e340
+[I]   int: WriteClassStg/14196a4, iat: 763580f0
+[I]   int: CoTreatAsClass/14196b4, iat: 7638a830
+[I]   int: CreateBindCtx/14196c6, iat: 763622a0
+[I]   int: WriteFmtUserTypeStg/14196d6, iat: 7635bea0
+[I]   int: ReadFmtUserTypeStg/14196ec, iat: 7635e2a0
+[I]   int: OleDuplicateData/1419702, iat: 763a56f0
+[I]   int: CoLockObjectExternal/14197e6, iat: 76d46e20
+[I]   int: RevokeDragDrop/1419c42, iat: 76363870
+[I]   int: RegisterDragDrop/1419c2e, iat: 76363b60
+[I]   int: DoDragDrop/1419c20, iat: 763ba740
+[I]   int: CoRegisterMessageFilter/1419c06, iat: 7636dc70
+[I]   int: OleIsCurrentClipboard/1419bee, iat: 7635a770
+[I]   int: OleFlushClipboard/1419bda, iat: 7635e7e0
+[I]   int: OleSetClipboard/1419bc8, iat: 7635b4c0
+[I]   int: CoRevokeClassObject/1419bb2, iat: 76bfb4e0
+[I]   int: CoRegisterClassObject/1419b9a, iat: 76c7db10
+[I]   int: CoGetClassObject/1419b86, iat: 76c126f0
+[I]   int: GetClassFile/1419b76, iat: 76385490
+[I]   int: IsAccelerator/1419b66, iat: 763bc040
+[I]   int: OleTranslateAccelerator/1419b4c, iat: 763bc490
+[I]   int: OleDestroyMenuDescriptor/1419b30, iat: 763bc300
+[I]   int: OleCreateMenuDescriptor/1419b16, iat: 763bc1d0
+[I]   int: CoGetMalloc/1419b08, iat: 76c8ff00
+[I]   int: CreateOleAdviseHolder/1419af0, iat: 763a2250
+[I]   int: CreateDataAdviseHolder/1419ad6, iat: 7636a0d0
+[I]   int: OleGetClipboard/1419ac4, iat: 76359500
+[I]   int: OleQueryCreateFromData/1419aaa, iat: 763a5260
+[I]   int: ReleaseStgMedium/1419716, iat: 76364210
+[I]   int: OleSetMenuDescriptor/1419a7a, iat: 763bc340
+[I]   int: OleGetIconOfClass/1419a66, iat: 763c1840
+[I]   int: OleLockRunning/1419a54, iat: 763a5870
+[I]   int: OleSetContainedObject/1419a3c, iat: 763a5910
+[I]   int: OleSaveToStream/1419a2a, iat: 7636c1c0
+[I]   int: OleSave/1419a20, iat: 76357ef0
+[I]   int: OleLoad/1419a16, iat: 763a51b0
+[I]   int: OleCreateFromFile/1419a02, iat: 763a4560
+[I]   int: OleCreateLinkToFile/14199ec, iat: 763a4b20
+[I]   int: OleCreateStaticFromData/14199d2, iat: 763a4d70
+[I]   int: OleCreateLinkFromData/14199ba, iat: 763a4890
+[I]   int: OleCreateFromData/14199a6, iat: 763a43a0
+[I]   int: OleCreate/141999a, iat: 763a41f0
+[I]   int: CreateGenericComposite/1419980, iat: 76364830
+[I]   int: GetHGlobalFromILockBytes/1419964, iat: 7637e2b0
+[I]   int: WriteClassStm/1419954, iat: 7637e520
+[I]   int: StgCreateDocfileOnILockBytes/1419934, iat: 7637e3a0
+[I]   int: CLSIDFromProgID/1419922, iat: 76c878d0
+[I]   int: OleDraw/1419918, iat: 763a5660
+[I]   int: CreateStreamOnHGlobal/1419900, iat: 76c79ef0
+[I]   int: OleUninitialize/14198ee, iat: 763674e0
+[I]   int: OleInitialize/14198de, iat: 76363a20
+[I]   int: CoFreeUnusedLibraries/14198c6, iat: 76cb6ff0
+[I]   int: CoInitialize/14198b6, iat: 76369bb0
+[I]   int: CoCreateGuid/14198a6, iat: 76c13050
+[I]   int: StringFromGUID2/1419894, iat: 76c74870
+[I]   int: CLSIDFromString/1419882, iat: 76c11520
+[I]   int: OleRegEnumVerbs/1419870, iat: 763c3de0
+[I]   int: OleRegGetMiscStatus/141985a, iat: 763c0940
+[I]   int: CoDisconnectObject/1419844, iat: 76bfbd10
+[I]   int: OleIsRunning/1419834, iat: 763a5800
+[I]   int: OleRun/141982a, iat: 7636c260
+[I]   int: GetRunningObjectTable/1419812, iat: 76366f60
+[I]   int: CreateItemMoniker/14197fe, iat: 76362de0
+[I] import name: OLEAUT32.dll, first thunk: 14129f0
+[I]   int: ordinal #197/800000c5, iat: 762dd8c0
+[I]   int: ordinal #2/80000002, iat: 7628f6a0
+[I]   int: ordinal #161/800000a1, iat: 762867d0
+[I]   int: ordinal #162/800000a2, iat: 76294fa0
+[I]   int: ordinal #163/800000a3, iat: 762c2cf0
+[I]   int: ordinal #420/800001a4, iat: 762a1340
+[I]   int: ordinal #411/8000019b, iat: 76287bb0
+[I]   int: ordinal #113/80000071, iat: 7629cf00
+[I]   int: ordinal #104/80000068, iat: 762d4a50
+[I]   int: ordinal #94/8000005e, iat: 7629dc50
+[I]   int: ordinal #24/80000018, iat: 76285be0
+[I]   int: ordinal #25/80000019, iat: 7628f2e0
+[I]   int: ordinal #26/8000001a, iat: 7628f480
+[I]   int: ordinal #27/8000001b, iat: 76289f00
+[I]   int: ordinal #148/80000094, iat: 76285400
+[I]   int: ordinal #232/800000e8, iat: 762dccb0
+[I]   int: ordinal #23/80000017, iat: 76285b80
+[I]   int: ordinal #22/80000016, iat: 76285f30
+[I]   int: ordinal #21/80000015, iat: 76285f60
+[I]   int: ordinal #20/80000014, iat: 76284e50
+[I]   int: ordinal #19/80000013, iat: 76283d90
+[I]   int: ordinal #18/80000012, iat: 76285e60
+[I]   int: ordinal #40/80000028, iat: 762880d0
+[I]   int: ordinal #16/80000010, iat: 7628cde0
+[I]   int: ordinal #39/80000027, iat: 762a1280
+[I]   int: ordinal #38/80000026, iat: 76286420
+[I]   int: ordinal #15/8000000f, iat: 762884e0
+[I]   int: ordinal #37/80000025, iat: 7628a1b0
+[I]   int: ordinal #36/80000024, iat: 76287b40
+[I]   int: ordinal #5/80000005, iat: 76293120
+[I]   int: ordinal #8/80000008, iat: 76283d70
+[I]   int: ordinal #150/80000096, iat: 7628f250
+[I]   int: ordinal #149/80000095, iat: 76286150
+[I]   int: ordinal #17/80000011, iat: 76285bc0
+[I]   int: ordinal #114/80000072, iat: 7629da30
+[I]   int: ordinal #12/8000000c, iat: 7628d400
+[I]   int: ordinal #9/80000009, iat: 7628e610
+[I]   int: ordinal #7/80000007, iat: 76283f50
+[I]   int: ordinal #6/80000006, iat: 7628e860
+[I]   int: ordinal #4/80000004, iat: 7628f610
+[I]   int: ordinal #185/800000b9, iat: 76286a70
+[I]   int: ordinal #184/800000b8, iat: 76286de0
+[I]   int: ordinal #10/8000000a, iat: 7628cbf0
+[I] import name: oledlg.dll, first thunk: 14137f4
+[I]   int: ordinal #3/80000003, iat: 73fb4500
+[I]   int: ordinal #4/80000004, iat: 73fb4680
+[I]   int: ordinal #5/80000005, iat: 73fb4d60
+[I]   int: ordinal #6/80000006, iat: 73fb4ea0
+[I]   int: ordinal #7/80000007, iat: 73fb4fa0
+[I]   int: ordinal #9/80000009, iat: 73fb5270
+[I]   int: ordinal #12/8000000c, iat: 73fb5800
+[I]   int: ordinal #11/8000000b, iat: 73fb5650
+[I]   int: ordinal #8/80000008, iat: 73fb51a0
+[I] import name: WS2_32.dll, first thunk: 14132e8
+[I]   int: ordinal #23/80000017, iat: 7620c990
+[I]   int: ordinal #20/80000014, iat: 76216160
+[I]   int: ordinal #19/80000013, iat: 762158a0
+[I]   int: ordinal #18/80000012, iat: 76215e50
+[I]   int: ordinal #17/80000011, iat: 76215ab0
+[I]   int: ordinal #16/80000010, iat: 762123a0
+[I]   int: ordinal #15/8000000f, iat: 762056e0
+[I]   int: ordinal #12/8000000c, iat: 76205940
+[I]   int: ordinal #11/8000000b, iat: 762057e0
+[I]   int: ordinal #9/80000009, iat: 762056e0
+[I]   int: ordinal #52/80000034, iat: 7622ff10
+[I]   int: ordinal #6/80000006, iat: 76212270
+[I]   int: ordinal #5/80000005, iat: 76213200
+[I]   int: ordinal #4/80000004, iat: 76215710
+[I]   int: ordinal #3/80000003, iat: 7620ea60
+[I]   int: ordinal #2/80000002, iat: 7620d890
+[I]   int: ordinal #1/80000001, iat: 762169c0
+[I]   int: ordinal #111/8000006f, iat: 76205d50
+[I]   int: ordinal #57/80000039, iat: 762300a0
+[I]   int: ordinal #51/80000033, iat: 7622fd80
+[I]   int: ordinal #13/8000000d, iat: 76215d90
+[I]   int: ordinal #115/80000073, iat: 76209cc0
+[I]   int: ordinal #116/80000074, iat: 76206400
+[I]   int: ordinal #112/80000070, iat: 76206250
+[I]   int: ordinal #101/80000065, iat: 762160c0
+[I]   int: ordinal #8/80000008, iat: 76205350
+[I] import name: AVIFIL32.dll, first thunk: 1412090
+[I]   int: AVIStreamWrite/1419dd0, iat: 73f97280
+[I]   int: AVIStreamStart/1419de2, iat: 73f972c0
+[I]   int: AVIStreamReadFormat/1419da4, iat: 73f96fb0
+[I]   int: AVIStreamLength/1419df4, iat: 73f97330
+[I]   int: AVIMakeCompressedStream/1419e06, iat: 73f97900
+[I]   int: AVISaveOptions/1419e20, iat: 73f93350
+[I]   int: AVIFileExit/1419d48, iat: 73f96920
+[I]   int: AVIStreamSetFormat/1419dba, iat: 73f96fe0
+[I]   int: AVIFileCreateStreamA/1419d8c, iat: 73f96f20
+[I]   int: AVIStreamRelease/1419c84, iat: 73f96d70
+[I]   int: AVIStreamTimeToSample/1419c98, iat: 73f97390
+[I]   int: AVIStreamGetFrameOpen/1419cb0, iat: 73fa1b60
+[I]   int: AVIStreamGetFrame/1419cc8, iat: 73fa1c40
+[I]   int: AVIStreamGetFrameClose/1419cdc, iat: 73fa1c10
+[I]   int: AVIStreamOpenFromFileA/1419cf6, iat: 73f97700
+[I]   int: AVIFileInit/1419d3a, iat: 73f96910
+[I]   int: AVIFileGetStream/1419d78, iat: 73f96ec0
+[I]   int: AVIFileRelease/1419d56, iat: 73f96d70
+[I]   int: AVIFileOpenA/1419d68, iat: 73f96cd0
+[I] import name: MSVFW32.dll, first thunk: 141297c
+[I]   int: ICInfo/1419d10, iat: 73f63ef0
+[I]   int: ICOpen/1419d26, iat: 73f64220
+[I]   int: ICGetInfo/1419d1a, iat: 73f65b90
+[I]   int: ICClose/1419d30, iat: 73f64400
+[I] import name: OLEACC.dll, first thunk: 14129b8
+[I]   int: CreateStdAccessibleObject/1419e7e, iat: 6afb7930
+[I]   int: LresultFromObject/1419e4c, iat: 6afb8db0
+[I]   int: AccessibleObjectFromWindow/1419e60, iat: 6afb8ce0
+[I] import name: gdiplus.dll, first thunk: 14133c0
+[I]   int: GdipDrawImageI/141a072, iat: 72fc6a60
+[I]   int: GdipSetInterpolationMode/141a0b6, iat: 72fa1b30
+[I]   int: GdipBitmapUnlockBits/141a044, iat: 72fd3840
+[I]   int: GdipBitmapLockBits/141a02e, iat: 72fd3790
+[I]   int: GdipCreateBitmapFromScan0/141a012, iat: 72fa0aa0
+[I]   int: GdipCreateBitmapFromHBITMAP/141a084, iat: 72fa1ac0
+[I]   int: GdipCreateFromHDC/141a0a2, iat: 72f909e0
+[I]   int: GdipDeleteGraphics/141a05c, iat: 72f9d470
+[I]   int: GdipCreateBitmapFromFileICM/1419ff4, iat: 72ff6030
+[I]   int: GdipCreateBitmapFromStreamICM/1419fd4, iat: 72ff61a0
+[I]   int: GdipCreateBitmapFromFile/1419fb8, iat: 72fb4570
+[I]   int: GdipCreateBitmapFromStream/1419f9a, iat: 72fd0fe0
+[I]   int: GdipGetImagePaletteSize/1419f80, iat: 72fa15e0
+[I]   int: GdipGetImagePalette/1419f6a, iat: 72fa14d0
+[I]   int: GdipGetImagePixelFormat/1419f50, iat: 72fcf840
+[I]   int: GdipGetImageHeight/1419f3a, iat: 72fcf950
+[I]   int: GdipGetImageWidth/1419f26, iat: 72fcf730
+[I]   int: GdipGetImageGraphicsContext/1419f08, iat: 72fa38b0
+[I]   int: GdipDisposeImage/1419ef4, iat: 72fd3b20
+[I]   int: GdipCloneImage/1419ee2, iat: 72fc92d0
+[I]   int: GdiplusStartup/1419ed0, iat: 72fd4830
+[I]   int: GdipFree/1419ec4, iat: 72fc6330
+[I]   int: GdipAlloc/1419eb8, iat: 72fc57f0
+[I]   int: GdiplusShutdown/1419ea6, iat: 72fd4210
+[I]   int: GdipDrawImageRectI/141a0d2, iat: 72fa7ba0
+[I] import name: WININET.dll, first thunk: 141318c
+[I]   int: InternetGetLastResponseInfoA/141a218, iat: 743fd080
+[I]   int: InternetSetStatusCallback/141a238, iat: 74396210
+[I]   int: FtpFindFirstFileA/141a254, iat: 74410940
+[I]   int: FtpGetFileA/141a268, iat: 74410bb0
+[I]   int: InternetSetOptionA/141a202, iat: 7433a4e0
+[I]   int: FtpDeleteFileA/141a284, iat: 744108c0
+[I]   int: FtpRenameFileA/141a296, iat: 74411340
+[I]   int: InternetGetCookieA/141a410, iat: 74425ca0
+[I]   int: FtpOpenFileA/141a2a8, iat: 74410f80
+[I]   int: InternetQueryOptionA/141a1ea, iat: 74338670
+[I]   int: InternetFindNextFileA/141a1d2, iat: 74413420
+[I]   int: InternetCrackUrlA/141a0f4, iat: 743761b0
+[I]   int: InternetCanonicalizeUrlA/141a108, iat: 743fc970
+[I]   int: InternetOpenA/141a124, iat: 743213b0
+[I]   int: InternetCloseHandle/141a134, iat: 74342990
+[I]   int: InternetQueryDataAvailable/141a1b4, iat: 743829d0
+[I]   int: InternetConnectA/141a14a, iat: 74387060
+[I]   int: InternetOpenUrlA/141a15e, iat: 743fd200
+[I]   int: InternetReadFile/141a172, iat: 74337d80
+[I]   int: InternetSetFilePointer/141a186, iat: 743fd250
+[I]   int: InternetWriteFile/141a1a0, iat: 74320c90
+[I]   int: InternetErrorDlg/141a426, iat: 7443d320
+[I]   int: FtpPutFileA/141a276, iat: 74411010
+[I]   int: FtpCreateDirectoryA/141a2b8, iat: 74410840
+[I]   int: FtpRemoveDirectoryA/141a2ce, iat: 744112c0
+[I]   int: FtpSetCurrentDirectoryA/141a2e4, iat: 744113c0
+[I]   int: FtpGetCurrentDirectoryA/141a2fe, iat: 74410b20
+[I]   int: FtpCommandA/141a318, iat: 74410610
+[I]   int: GopherCreateLocatorA/141a326, iat: 7441b910
+[I]   int: GopherFindFirstFileA/141a33e, iat: 7441b930
+[I]   int: GopherOpenFileA/141a356, iat: 7441b990
+[I]   int: GopherGetAttributeA/141a368, iat: 7441b950
+[I]   int: HttpOpenRequestA/141a37e, iat: 74424290
+[I]   int: HttpAddRequestHeadersA/141a392, iat: 74350140
+[I]   int: HttpSendRequestA/141a3ac, iat: 74392b80
+[I]   int: HttpSendRequestExA/141a3c0, iat: 74396720
+[I]   int: HttpEndRequestA/141a3d6, iat: 74392ed0
+[I]   int: HttpQueryInfoA/141a3e8, iat: 74339f10
+[I]   int: InternetSetCookieA/141a3fa, iat: 74425fb0
+[I] import name: IMM32.dll, first thunk: 14124d8
+[I]   int: ImmGetContext/141a446, iat: 76313b30
+[I]   int: ImmReleaseContext/141a456, iat: 76314e80
+[I]   int: ImmGetOpenStatus/141a46a, iat: 76312a40
+[I] thread ended, now wait for the hooked calls...
+[I] CreateFile called! (lpFileName=S:\\enginex\project\macros\startdoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\enginex\project\macros\startdoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\enginex\project\macros\startdoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=C:\Users\Jordi Martinez\Desktop\Sphinx and the shadow of set\SphinxModContent\Grafix\TriggerObjects\Sakkara\IO_sk_01.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[!] Direct3DCreate8 called -- result: 8392380 params: /78/  orig entrypoint: 6957c0a0/ from native d3d8 loaded at 69570000
+[!] Direct3DCreate8 called -- result: 8b0fa00 params: /78/  orig entrypoint: 6957c0a0/ from native d3d8 loaded at 69570000
+[I] CreateFile called! (lpFileName=C:\Users\Jordi Martinez\Desktop\Sphinx and the shadow of set\SphinxModContent\Grafix\Maps\Sakkara\retouch\_sk_01.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[!] Direct3DCreate8 called -- result: 1385a440 params: /78/  orig entrypoint: 6957c0a0/ from native d3d8 loaded at 69570000
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\triggerobjects\sakkara\io_sk_ext_general.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\triggerobjects\sakkara\io_sk_01.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\_fx\environment\fx_env_fog.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\_fx\environment\fx_env_water.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\_fx\environment\fx_env_nature.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\_fx\environment\fx_env_wind.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\_fx\environment\fx_env_smoke.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\_fx\environment\fx_env_magic.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\_fx\environment\fx_env_fire.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\_fx\environment\fx_env_dust.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\_cutscene\sakkara\cs_sakk_1.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\main character\cs_sphinx.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\animal quadruped\reptile\qr02_sak_spitting_toad.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\humanoid dressed\hd44_sak_sakkarian_frightened.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\triggerobjects\general\io_savepoint.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\triggerobjects\general\io_levers.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\insects\in09_sak_spike_spider.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\humanoid dressed\hd54_horus.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\object character\oc05_sphinx_portal.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\animations\humanoid dressed\hd47_sak_sakkarian_intrepid.elf,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\sphinx.elp,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\triggers2.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SphinxPathEvents.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=S:\sphinx\project\macros\opendoc.elm,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\ServerX\Sphinx\Project\Macros\Sphinx_UserList.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[!] Direct3DCreate8 called -- result: 13799dc0 params: /78/  orig entrypoint: 6957c0a0/ from native d3d8 loaded at 69570000
+[I] CreateFile called! (lpFileName=EL_BackUp4.ELF,dwDesiredAccess=40000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=EL_BackUp5.ELF,dwDesiredAccess=40000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=EL_BackUp6.ELF,dwDesiredAccess=40000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=EL_BackUp7.ELF,dwDesiredAccess=40000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=C:\Users\Jordi Martinez\Desktop\Sphinx and the shadow of set\SphinxModContent\Grafix\Maps\Sakkara\retouch\MFCAB56FA99.tmp,dwDesiredAccess=c0000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\hashcodes.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\EngineX\Project\HashCode_SubFile.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SFX_Defines.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\EngineX\Project\HashCode_Function.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\EngineX\Project\HashCode_AnimBone.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\MFX_Defines.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\EngineX\Project\HashCode_MemCardText.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\project\hashcodes.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\EngineX\Project\HashCode_SubFile.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\SFX_Defines.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\EngineX\Project\HashCode_Function.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\EngineX\Project\HashCode_AnimBone.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\sphinx\Project\MFX_Defines.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=s:\\EngineX\Project\HashCode_MemCardText.h,dwDesiredAccess=80000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=X:\Sphinx\Binary\_bin_PC\_sk_01.edb,dwDesiredAccess=40000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=X:\Sphinx\Binary\_bin_PS2\_sk_01.edb,dwDesiredAccess=40000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=X:\Sphinx\Binary\_bin_GC\_sk_01.edb,dwDesiredAccess=40000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=X:\Sphinx\Binary\_bin_XB\_sk_01.edb,dwDesiredAccess=40000000,dwShareMode=0)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\gamescripts\general\portal_portallock_tr_useitem.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\gamescripts\general\portal_portalcontroller_tr_object.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\gamescripts\general\portal_portalrelay01_tr_object.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\gamescripts\general\portal_portalrelaymaster_tr_object.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[!] Direct3DCreate8 called -- result: 3f6cfa40 params: /78/  orig entrypoint: 6957c0a0/ from native d3d8 loaded at 69570000
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\gamescripts\general\portal_portallock_tr_useitem.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\gamescripts\general\portal_portalcontroller_tr_object.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\gamescripts\general\portal_portalrelay01_tr_object.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\sphinx\grafix\gamescripts\general\portal_portalrelaymaster_tr_object.txt,dwDesiredAccess=80000000,dwShareMode=1)
+[I] CreateFile called! (lpFileName=x:\Sphinx\Binary\_CacheFiles\_sk_01.sri,dwDesiredAccess=40000000,dwShareMode=0)
+[!] the engine is asking IL to clean things up, looks like the game is closing or something... who knows, has been fun!

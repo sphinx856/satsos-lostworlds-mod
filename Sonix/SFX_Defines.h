@@ -771,6 +771,11 @@
 #define SFX_MON_HD10_FAT_TALK             0x1A0002A0
 #define SFX_MON_HD10_FAT_WAKEUP           0x1A0002A1
 #define SFX_MON_HD10_FAT_YAWN             0x1A0002A2
+#define SFX_MON_HD12_REP_TALK             0x1A0007B0
+#define SFX_MON_HD12_REP_TALK2            0x1A0007B1
+#define SFX_MON_HD12_REP_ATTACK           0x1A0007B2
+#define SFX_MON_HD13_Nasty_VOX            0x1A0007B3
+#define SFX_MON_HD13_Talk                 0x1A0007B4
 #define SFX_MON_HD13_RAC_FLAP             0x1A0002A3
 #define SFX_MON_HD13_RAC_HIT              0x1A0002A4
 #define SFX_MON_HD13_RAC_SHAKE            0x1A0002A5
@@ -808,7 +813,8 @@
 #define SFX_MON_HD16_BIR_CLAP4            0x1A0002C5
 #define SFX_MON_HD16_BIR_CLAP5            0x1A0002C6
 #define SFX_MON_HD16_BIR_CLAP6            0x1A0002C7
-#define SFX_MON_HD16_BIR_LAND             0x1A0002C8
+#define SFX_MON_HD16_BIR_LAND             0x1A0002C8 
+#define SFX_MON_HD16_BIR_TALK             0x1A0007AF
 #define SFX_MON_HD16_BIR_VOX1             0x1A0002C9
 #define SFX_MON_HD16_BIR_VOX2             0x1A0002CA
 #define SFX_MON_HD16_BIR_WALK1            0x1A0002CB
@@ -1944,8 +1950,8 @@
 #define SFX_WATER_SPLASH_OUT1             0x1A0006AD
 #define SFX_WATER_SPLASH_OUT2             0x1A0006AE
 #define SFX_WATER_SPLASH_SMALL            0x1A0006AF
-#define SFX_MaximumDefined  0x0000077F
-#define SFX_HashCodeHighest 0x000007AE
+#define SFX_MaximumDefined  0x000007B4
+#define SFX_HashCodeHighest 0x000007B4
 
 // SoundBank HashCodes
 #define SB_A_Test_Bank      0x00000001
