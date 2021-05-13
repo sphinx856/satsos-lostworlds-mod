@@ -813,7 +813,7 @@
 #define SFX_MON_HD16_BIR_CLAP4            0x1A0002C5
 #define SFX_MON_HD16_BIR_CLAP5            0x1A0002C6
 #define SFX_MON_HD16_BIR_CLAP6            0x1A0002C7
-#define SFX_MON_HD16_BIR_LAND             0x1A0002C8 
+#define SFX_MON_HD16_BIR_LAND             0x1A0002C8
 #define SFX_MON_HD16_BIR_TALK             0x1A0007AF
 #define SFX_MON_HD16_BIR_VOX1             0x1A0002C9
 #define SFX_MON_HD16_BIR_VOX2             0x1A0002CA
@@ -1986,6 +1986,8 @@
 #define SB_Lev_Hel_DarkArea01           0x0000005E
 #define SB_Lev_Hel_DarkArea02           0x0000005F
 #define SB_Lev_Hel_DarkArea03           0x00000060
+#define SB_Lev_Hel_Cave_Door1           0x00000062
+#define SB_Lev_Hel_Cave_Door2           0x00000063
 #define SB_Lev_Sakkara_1           0x00000057
 #define SB_Lev_Sakkara_2           0x00000058
 #define SB_Lev_Sakkara_3           0x00000059
@@ -2009,6 +2011,7 @@
 #define SB_Lev_Uruk_Castle  0x00000020
 #define SB_Lev_Uruk_Intro   0x00000021
 #define SB_Lev_Uruk_SethBoss              0x00000022
+#define SB_Lev_Uruk_Hub              0x00000061
 #define SB_Mon_BM12         0x00000026
 #define SB_Mon_QU02         0x00000040
 #define SB_Player_Mummy     0x00000045
@@ -2050,5 +2053,5 @@
 #define SB_Mon_QU09          0x00000044
 #define SB_Mon_HD03          0x00000049
 #define SB_Mon_PI02          0x0000004b
-#define SB_MaximumDefined    0x00000060
+#define SB_MaximumDefined    0x00000063
 /* -- */
