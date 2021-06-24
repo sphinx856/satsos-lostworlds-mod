@@ -1973,5 +1973,10 @@ SFXOutputDetails SFXOutputData[] = {
 { 1970 ,  3.0f ,  35.0f ,  0.0f ,  .5278639f , 0, 2, 0 } ,  // SFX_MON_HD12_REP_ATTACK
 { 1971 ,  3.0f ,  35.0f ,  0.0f ,  .7098639f , 0, 2, 0 } ,  // SFX_MON_HD13_Nasty_VOX
 { 1972 ,  3.0f ,  35.0f ,  0.0f ,  .4448639f , 0, 2, 0 } ,  // SFX_MON_HD13_Talk
+{ 1973 ,  3.0f ,  35.0f ,  0.0f ,  .552007f , 0, 2, 0 } ,  // SFX_MON_HD53_SOA_TALK
+{ 1974 ,  3.0f ,  35.0f ,  0.0f ,  .6608639f , 0, 2, 0 } ,  // SFX_MON_HD53_SOB_TALK
+{ 1975 ,  3.0f ,  35.0f ,  0.0f ,  .4008639f , 0, 2, 0 } ,  // SFX_MON_HD51_CHI_TALK
+{ 1976 ,  3.0f ,  35.0f ,  0.0f ,  1.0040734f , 0, 2, 0 } ,  // SFX_MON_HD47_INT_TALK
+{ 1977 ,  3.0f ,  35.0f ,  0.0f ,  .7550734f , 0, 2, 0 } ,  // SFX_MON_HD46_FAR_TALK
 };
 
